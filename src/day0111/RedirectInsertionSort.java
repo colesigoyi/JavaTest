@@ -2,9 +2,6 @@ package day0111;
 
 import Utils.Utils;
 
-import static java.lang.Thread.currentThread;
-import static java.lang.Thread.sleep;
-
 /**
  * @program: java_test
  * @author: taoxuefeng
