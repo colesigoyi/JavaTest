@@ -7,7 +7,10 @@ import java.util.Random;
  * @ program: java_study
  * @ author:  TaoXueFeng
  * @ create: 2019-06-02 00:51
- * @ desc:
+ * @ desc:请输入一个小于50的数：45
+ *        猜错了，继续加油！
+ *        正确结果为：
+ *        4 43 23 0 14
  **/
 
 public class Test0602_1 {
