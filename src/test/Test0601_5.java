@@ -29,9 +29,15 @@ public class Test0601_5 {
         print_1(scores);
         System.out.println("---------------");
         print_2(1,2,3,4,5);
-        //空指针异常
+        //空指针异常NullPointerException
         //Exception in thread "main" java.lang.NullPointerException
+        //当一个变量为null（没有赋值）时，我们调用了该变量的属性和方法
         //print_3(null);
+
+        //测试数组的异常，数组下标越界
+        //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+        //print_4(scores);
+
     }
     public static void print_1(int[] x){
         int len = x.length;
@@ -50,6 +56,11 @@ public class Test0601_5 {
     }
     public static void print_3(int[] x){
         System.out.println(x.length);
+    }
+    public static void print_4(int[] x){
+        for(int i=0; i<=x.length; i++){
+            System.out.println(x[i]);
+        }
 
     }
 }
