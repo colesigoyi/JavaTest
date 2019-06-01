@@ -29,6 +29,9 @@ public class Test0601_5 {
         print_1(scores);
         System.out.println("---------------");
         print_2(1,2,3,4,5);
+        //空指针异常
+        //Exception in thread "main" java.lang.NullPointerException
+        //print_3(null);
     }
     public static void print_1(int[] x){
         int len = x.length;
@@ -39,10 +42,14 @@ public class Test0601_5 {
     //JDK1.5可变参数
     //可变参数只能是参数列表中的最后一个
     //可变参数可作为数组使用
-    public static void print_2(int... x){
+    public static void print_2(int...x){
         int len = x.length;
         for(int i=0; i<len; i++){
             System.out.println(x[i]);
         }
+    }
+    public static void print_3(int[] x){
+        System.out.println(x.length);
+
     }
 }
