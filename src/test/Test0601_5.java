@@ -38,6 +38,9 @@ public class Test0601_5 {
         //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
         //print_4(scores);
 
+        //new关键字表示
+        int[] nums = new int[]{1,2,3,4,5};
+
     }
     public static void print_1(int[] x){
         int len = x.length;
