@@ -21,7 +21,8 @@ public class Test0602_5 {
 
         while (end >= start){
             int middle = (start + end)/2; //>>>1
-            if( nums[middle] < key ){
+            int midVal = nums[middle];
+            if( midVal < key ){
                 start = middle + 1;
             }else if(nums[middle] > key){
                 end = middle - 1;
