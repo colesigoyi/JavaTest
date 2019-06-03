@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="面向对象">
-      <change afterPath="$PROJECT_DIR$/src/test/Test0603_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="封装">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test0603_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0603_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,9 +86,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0603_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="334">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
                 <element signature="e#892#893#0" expanded="true" />
                 <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#1040#1041#0" expanded="true" />
@@ -195,7 +196,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="736" />
     <option name="y" value="23" />
-    <option name="width" value="704" />
+    <option name="width" value="849" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -309,7 +310,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559500425095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559535200696" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -497,7 +498,7 @@
       <workItem from="1545876283383" duration="101000" />
       <workItem from="1545928432634" duration="630000" />
       <workItem from="1546845689336" duration="10949000" />
-      <workItem from="1559403012007" duration="26039000" />
+      <workItem from="1559403012007" duration="27385000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -590,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559497235659</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="封装">
+      <created>1559500491260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559500491260</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -626,7 +634,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386643000" />
+    <option name="totallyTimeSpent" value="387989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,7 +646,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="23" width="704" height="877" extended-state="0" />
+    <frame x="736" y="23" width="849" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
@@ -724,7 +732,8 @@
     <MESSAGE value="add midVal" />
     <MESSAGE value="双色球模拟器" />
     <MESSAGE value="面向对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象" />
+    <MESSAGE value="封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -950,9 +959,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0603_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="334">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
             <element signature="e#922#923#0" expanded="true" />
             <element signature="e#1040#1041#0" expanded="true" />

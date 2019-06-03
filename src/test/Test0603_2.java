@@ -18,6 +18,8 @@ public class Test0603_2 {
         p1.name = "tao";
         p1.age = 18;
 
+        p1.run(10);//调用run()方法时
+
         Person2 p2 = new Person2();
         //p2.name = "tao";//直接赋值会报错Error:name可以在test.Person2中访问private
         //p2.age = 18;//Error:age可以在test.Person2中访问private
@@ -29,8 +31,12 @@ public class Test0603_2 {
 //属性没有封装之前
 class Person1 {
     //属性的封装
-    String name;
+    String name; //成员变量,在类中定义的
     int age;
+
+    public void run(int len){//参数也是局部变量
+        int m = len;//m也是局部变量
+    }
 }
 class Person2 {
     //相当于北京限行
@@ -40,7 +46,7 @@ class Person2 {
     //对外提供一个为name属性设值得方法
     public void setName(String n) {
         //this指当前对象的name
-        this.name = n;
+        this.name = n;//name是成员变量，n是局部变量
     }
 
     public void setAge(int age) {
