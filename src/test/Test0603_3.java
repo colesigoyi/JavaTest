@@ -17,12 +17,18 @@ public class Test0603_3 {
     }
 }
 class Dog {
-    //默认构造方法
+    //默认构造方法，若有带参的构造方法，默认的就不起作用
     public Dog(){
         //System.out.println("构造方法执行");
     }
-    public Dog(String name, int age){
+    public Dog(String name){
         this.name = name;
+        System.out.println("带一个参数的构造方法执行");
+    }
+    public Dog(String name, int age){
+        this(name);//调用带一个参数的构造方法,调用其它构造方法时只能放在第一行，限制了只能调用一次
+                    //调用别的方法时要有出口，防止相互调用死循环
+        //this.name = name;
         this.age = age;
         System.out.println("带两个参数的构造方法执行了");
     }
