@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="封装，成员变量与局部变量">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="构造方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test0603_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0603_3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0603_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="88">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -316,7 +317,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559561969962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559562195447" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -505,7 +506,7 @@
       <workItem from="1545928432634" duration="630000" />
       <workItem from="1546845689336" duration="10949000" />
       <workItem from="1559403012007" duration="29973000" />
-      <workItem from="1559561466287" duration="385000" />
+      <workItem from="1559561466287" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -612,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559535277351</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="构造方法">
+      <created>1559562000460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559562000460</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390962000" />
+    <option name="totallyTimeSpent" value="391301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +681,7 @@
       <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.29440993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49353796" weight="0.15238096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49353796" visible="true" weight="0.15238096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -748,7 +756,8 @@
     <MESSAGE value="面向对象" />
     <MESSAGE value="封装" />
     <MESSAGE value="封装，成员变量与局部变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装，成员变量与局部变量" />
+    <MESSAGE value="构造方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="构造方法" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -974,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0603_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="88">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
         </state>
       </provider>
     </entry>
