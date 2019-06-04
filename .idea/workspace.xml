@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="static关键字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test0604_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0604_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,15 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test0601_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0602_4_sort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,19 +126,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0604_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#1456#1457#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Test0604_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -348,6 +347,13 @@
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0604_2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -386,7 +392,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559665696728" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559666432358" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -420,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test0604_2">
+  <component name="RunManager" selected="Application.Test0604_3">
     <configuration name="RefDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RefDemo02" />
       <module name="java_test" />
@@ -436,19 +442,6 @@
     </configuration>
     <configuration name="RefDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RefDemo03" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RefDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.RefDemo1" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -486,20 +479,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test0604_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test0604_3" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RefDemo1" />
       <item itemvalue="Application.RefDemo02" />
       <item itemvalue="Application.RefDemo03" />
       <item itemvalue="Application.Test0604_1" />
       <item itemvalue="Application.Test0604_2" />
+      <item itemvalue="Application.Test0604_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0604_3" />
         <item itemvalue="Application.Test0604_2" />
         <item itemvalue="Application.Test0604_1" />
         <item itemvalue="Application.RefDemo02" />
         <item itemvalue="Application.RefDemo03" />
-        <item itemvalue="Application.RefDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +582,7 @@
       <workItem from="1545928432634" duration="630000" />
       <workItem from="1546845689336" duration="10949000" />
       <workItem from="1559403012007" duration="29973000" />
-      <workItem from="1559561466287" duration="9578000" />
+      <workItem from="1559561466287" duration="10332000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -739,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559665433701</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="static关键字">
+      <created>1559665707055</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1559665707055</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -775,7 +788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400155000" />
+    <option name="totallyTimeSpent" value="400909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,7 +801,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="674" y="23" width="766" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -797,10 +809,10 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.2936288" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.2936288" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49353796" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49353796" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1182,15 +1194,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0604_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
           </folding>
         </state>
       </provider>
