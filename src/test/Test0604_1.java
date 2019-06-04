@@ -12,7 +12,19 @@ package test;
 
 public class Test0604_1 {
     public static void main(String[] args) {
+        Hero hero = new Hero("刘备",300);
+        Weapon weapon = new Weapon("双股剑",3);
 
+        //把两个对象关联起来
+        hero.setWeapon(weapon);
+        weapon.setHero(hero);
+
+        //通过英雄来获取他的信息
+        String name = hero.getName();
+        int age = hero.getAge();
+        Weapon w =  hero.getWeapon();
+        System.out.println("我是" + name + ",我" + age + "岁，我的武器是" + w.getName() +
+                ",我的武器等级是" + w.getGrade() + "级。");
     }
 }
 //英雄类
@@ -20,6 +32,14 @@ class Hero{
 
     private String name;
     private int age;
+    //一对一关系，把weapon当成一个属性
+    private Weapon weapon;
+    public Weapon getWeapon() {
+        return weapon;
+    }
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
 
     public Hero(){
     }
@@ -49,6 +69,14 @@ class Hero{
 class Weapon{
     private String name;
     private int grade;
+
+    private Hero hero;
+    public Hero getHero() {
+        return hero;
+    }
+    public void setHero(Hero hero) {
+        this.hero = hero;
+    }
 
     public Weapon(){
     }
