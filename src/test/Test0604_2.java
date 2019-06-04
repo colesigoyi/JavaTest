@@ -11,6 +11,7 @@ package test;
  *          4.静态变量是本类所有对象共享一份
  *          5.建议不要使用对象名去调用静态变量，直接用类名调用
  *          6.static修饰一个方法，那么该方法属于类，用类名直接调用
+ *          7.静态方法不能访问非静态属性和方法，只能访问静态的。
  **/
 
 public class Test0604_2 {
@@ -46,7 +47,14 @@ class Role{
     public void setName(String name) {
         this.name = name;
     }
+    //静态方法不能访问非静态数据
+    public static void setCountry(String country){
+        //不能用this，因为this表示当前对象
+        Role.country = country;
+    }
+    /*
 
+    静态一般不写getter与setter方法
     public String getCountry() {
         return country;
     }
@@ -54,6 +62,7 @@ class Role{
     public void setCountry(String country) {
         this.country = country;
     }
+    */
 
     public String geiInfo(){
         return "name= " + name + ";country=" + country;
