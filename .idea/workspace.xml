@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="值传递与引用传递">
-      <change afterPath="$PROJECT_DIR$/src/test/Test0604_1.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="一对一关系">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -116,17 +115,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0604_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559661526539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559661704579" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -548,7 +550,7 @@
       <workItem from="1545928432634" duration="630000" />
       <workItem from="1546845689336" duration="10949000" />
       <workItem from="1559403012007" duration="29973000" />
-      <workItem from="1559561466287" duration="5928000" />
+      <workItem from="1559561466287" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -683,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559582130229</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="一对一关系">
+      <created>1559661633201</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559661633201</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -719,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396505000" />
+    <option name="totallyTimeSpent" value="396759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +741,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="737" y="23" width="703" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -744,13 +752,13 @@
       <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.29438543" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49353796" visible="true" weight="0.15238096" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49353796" weight="0.15238096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50646204" side_tool="true" weight="0.2672209" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292517" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3292517" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.23673469" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -804,6 +812,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$USER_HOME$" />
@@ -822,7 +856,8 @@
     <MESSAGE value="构造方法" />
     <MESSAGE value="this关键字" />
     <MESSAGE value="值传递与引用传递" />
-    <option name="LAST_COMMIT_MESSAGE" value="值传递与引用传递" />
+    <MESSAGE value="一对一关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="一对一关系" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1078,17 +1113,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0604_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>

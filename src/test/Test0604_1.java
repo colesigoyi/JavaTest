@@ -21,7 +21,7 @@ class Hero{
     private String name;
     private int age;
 
-    public Horse(){
+    public Hero(){
     }
 
     public Hero(String name, int age) {
