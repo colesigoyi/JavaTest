@@ -38,6 +38,10 @@ public class Test0604_6 {
         cm.update(new Chicken(1,"改变",12));
         cm.printAll();
 
+        System.out.println("------------删除---------------");
+        cm.delete(1);
+        cm.printAll();
+
 
     }
 }
