@@ -41,7 +41,7 @@ class ChickenManager{
     public int length(){
         return cs.length;
     }
-    //添加
+    //添加：实现动态数组
     public void add(Chicken c){
         if(count>=cs.length){//数组已经满，需要扩充
 
