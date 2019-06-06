@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="代码块">
-      <change afterPath="$PROJECT_DIR$/src/test/Test0604_5_designMode.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="单例设计模式">
+      <change afterPath="$PROJECT_DIR$/src/test/Test0604_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -145,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0604_5_designMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="method#Singleton1#0;class#Singleton1#0" />
                 <element signature="e#556#557#0" expanded="true" />
@@ -163,11 +163,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test0603_2.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Test0604_6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day1212/OuterClass2.java" />
         <option value="$PROJECT_DIR$/src/day1212/InterfaceInner.java" />
         <option value="$PROJECT_DIR$/src/day1213/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/day1213/SwingAndThread.java" />
@@ -257,6 +276,7 @@
         <option value="$PROJECT_DIR$/src/test/Test0604_3.java" />
         <option value="$PROJECT_DIR$/src/test/Test0604_4.java" />
         <option value="$PROJECT_DIR$/src/test/Test0604_5_designMode.java" />
+        <option value="$PROJECT_DIR$/src/test/Test0604_6.java" />
       </list>
     </option>
   </component>
@@ -273,9 +293,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
+    <option name="x" value="664" />
     <option name="y" value="23" />
-    <option name="width" value="769" />
+    <option name="width" value="776" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -351,6 +371,13 @@
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0604_5_designMode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -389,7 +416,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559669683069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559801358783" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -423,20 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test0604_4">
-    <configuration name="RefDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.RefDemo02" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test0604_6">
     <configuration name="Test0604_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test0604_1" />
       <module name="java_test" />
@@ -489,20 +503,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test0604_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test0604_6" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RefDemo02" />
       <item itemvalue="Application.Test0604_1" />
       <item itemvalue="Application.Test0604_2" />
       <item itemvalue="Application.Test0604_3" />
       <item itemvalue="Application.Test0604_4" />
+      <item itemvalue="Application.Test0604_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0604_6" />
         <item itemvalue="Application.Test0604_4" />
         <item itemvalue="Application.Test0604_3" />
         <item itemvalue="Application.Test0604_2" />
         <item itemvalue="Application.Test0604_1" />
-        <item itemvalue="Application.RefDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +606,7 @@
       <workItem from="1545928432634" duration="630000" />
       <workItem from="1546845689336" duration="10949000" />
       <workItem from="1559403012007" duration="29973000" />
-      <workItem from="1559561466287" duration="13586000" />
+      <workItem from="1559561466287" duration="18478000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -770,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559667545178</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="单例设计模式">
+      <created>1559669901523</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1559669901523</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -806,7 +840,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404163000" />
+    <option name="totallyTimeSpent" value="409055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +852,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="23" width="769" height="877" extended-state="0" />
+    <frame x="664" y="23" width="776" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
@@ -828,7 +862,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.29204893" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.2910345" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49353796" weight="0.2" />
@@ -838,7 +872,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50646204" side_tool="true" weight="0.2672209" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292517" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.23673469" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.23673469" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.32873562" />
@@ -939,14 +973,14 @@
     <MESSAGE value="static关键字" />
     <MESSAGE value="main方法分析" />
     <MESSAGE value="代码块" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码块" />
+    <MESSAGE value="单例设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例设计模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day1216/Stringtest.java" />
     <entry file="file://$PROJECT_DIR$/src/day1219/AItest.java" />
     <entry file="file://$PROJECT_DIR$/src/day1215/Emp.java" />
     <entry file="file://$PROJECT_DIR$/src/day1216/Jerque.java" />
@@ -1245,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0604_5_designMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="method#Singleton1#0;class#Singleton1#0" />
             <element signature="e#556#557#0" expanded="true" />
@@ -1255,6 +1289,33 @@
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#1076#1077#0" expanded="true" />
             <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test0604_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
           </folding>
         </state>
       </provider>
