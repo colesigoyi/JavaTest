@@ -12,29 +12,39 @@ package test;
  *         创建子类对象时，父类的构造方法也会被调用，为什么？
  *              因为子类要使用父类的数据，那么就要通过父类的构造方法来初始化数据
  *              创建子类对象时会调用父类的默认构造方法
+ *              当父类中没有无参构造方法时，子类必须显示的调用父类的带参构造方法，怎么调用？
+ *              super()可以在子类中显示的使用super（）来调用父类的带参构造方法，且必须放在第一位
  **/
 
 public class Test0606_1 {
     public static void main(String[] args) {
-        HomeDog homeDog = new HomeDog("旺财");
+        HomeDog homeDog = new HomeDog("旺财","公");
         //homeDog.name = "家狗";
         homeDog.print();
     }
 }
 class Dog1{
     protected String name;
-    private String sex;
-
+    protected String sex;
+    /*
     public Dog1(){
         System.out.println("我是Dog1的构造方法");
     }
-    public void rat(){
+     */
+
+    public Dog1(String name, String sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+
+    public void eat(){
         System.out.println("吃饭");
     }
 }
 
 class HomeDog extends Dog1{
-    public HomeDog(String name){
+    public HomeDog(String name,String sex){
+        super(name, sex);
         this.name = name;
         System.out.println("我是HomeDog的构造方法");
     }
@@ -44,7 +54,8 @@ class HomeDog extends Dog1{
 }
 
 class HuskyDog extends Dog1{
-    public HuskyDog(){
+    public HuskyDog(String name, String sex){
+        super(name, sex);
         System.out.println("我是HuskyDog的构造方法");
     }
     public void show(){
