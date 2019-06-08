@@ -21,9 +21,11 @@ public class Test0608_2_final {
     }
 }
 
-//常量类（工具类的一种）
+//常量类（工具类的一种）:在实际项目开发中，常量类通常用于定义项目中一些公共的不变的数据
 final class Constant{
     public static final int PERSON_NUM = 10;
+    public static final String SERVER_ROOT_URL = "http://www.baidu.com";
+    public static final String CACHE_PATH = "data_cache";
 }
 
 final class FinalClass{
