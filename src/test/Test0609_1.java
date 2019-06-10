@@ -9,11 +9,24 @@ package test;
 
 public class Test0609_1 {
     public static void main(String[] args) {
-        HomeChicken hc = new HomeChicken("小鸡鸡");
+        //HomeChicken hc = new HomeChicken("小鸡鸡");
+        //用父类的引用指向子类对象（用大的类型表示小的类型）
+        Chicken1 hc = new HomeChicken("小鸡鸡");
         hc.eat();
 
-        YeChicken yc = new YeChicken("大鸡鸡");
+        //YeChicken yc = new YeChicken("大鸡鸡");
+        Chicken1 yc = new YeChicken("大鸡鸡");
         yc.eat();
+
+        //hc = yc;
+        //hc.eat();
+        eat(hc);
+        eat(yc);
+    }
+    //抽象（粒度）面相抽象编程（或者面相接口编程），好处是扩展方便
+    public static void eat(Chicken1 c){
+        System.out.println("鸡吃饭");
+        c.eat();
     }
 }
 abstract class Chicken1{
