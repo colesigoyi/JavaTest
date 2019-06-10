@@ -21,14 +21,18 @@ public class Test0609_1 {
 
         //hc = yc;
         //hc.eat();
-        eat(hc);
-        eat(yc);
+        //eat(hc);
+        //eat(yc);
         eat(jjc);
+
     }
     //抽象（粒度）面相抽象编程（或者面相接口编程），好处是扩展方便
     public static void eat(Chicken1 c){//用大的接收，可变行更强，接受范围更广
         System.out.println("鸡吃饭");
         c.eat();
+        //c.song()
+        JianJiaoChicken jjc = (JianJiaoChicken)c;//大类型转换为小类型，强制转换（向下转型）
+        jjc.song();
     }
 }
 abstract class Chicken1{
@@ -73,5 +77,8 @@ class JianJiaoChicken extends Chicken1{
     }
     public void eat(){
         System.out.println(this.getName() + "，不用吃饭");
+    }
+    public void song(){
+        System.out.println("啊啊啊啊");
     }
 }

@@ -180,8 +180,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0609_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="227">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
@@ -197,6 +197,12 @@
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#810#811#0" expanded="true" />
                 <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -445,7 +451,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560180855048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560181439451" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -636,7 +642,7 @@
       <workItem from="1546845689336" duration="10949000" />
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
-      <workItem from="1559817333802" duration="12836000" />
+      <workItem from="1559817333802" duration="13359000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559403117238</created>
@@ -939,7 +945,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560180283833</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="多态">
+      <created>1560180722904</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560180722905</updated>
+    </task>
+    <task id="LOCAL-00045" summary="多态">
+      <created>1560180914254</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560180914254</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -975,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427673000" />
+    <option name="totallyTimeSpent" value="428196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1546,8 +1566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0609_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="227">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
@@ -1563,6 +1583,12 @@
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#810#811#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
           </folding>
         </state>
       </provider>
