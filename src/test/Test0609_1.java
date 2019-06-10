@@ -33,7 +33,7 @@ public class Test0609_1 {
         //c.song()
         //instanceof关键字：当我们需要八父类的实例强制转换为子类引用时，为了避免类型转换异常ClassCastException
         //那么我们需要在转换之前做类型检查
-        if(c instanceof JianJiaoChicken) {
+        if(c instanceof JianJiaoChicken) {//成立条件：对象本身及对象的父类型都能通过检察
             JianJiaoChicken jjc = (JianJiaoChicken) c;//大类型转换为小类型，强制转换（向下转型）
             jjc.song();
         }
