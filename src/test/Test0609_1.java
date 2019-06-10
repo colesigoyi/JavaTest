@@ -21,8 +21,8 @@ public class Test0609_1 {
 
         //hc = yc;
         //hc.eat();
-        //eat(hc);
-        //eat(yc);
+        eat(hc);
+        eat(yc);
         eat(jjc);
 
     }
@@ -31,8 +31,12 @@ public class Test0609_1 {
         System.out.println("鸡吃饭");
         c.eat();
         //c.song()
-        JianJiaoChicken jjc = (JianJiaoChicken)c;//大类型转换为小类型，强制转换（向下转型）
-        jjc.song();
+        //instanceof关键字：当我们需要八父类的实例强制转换为子类引用时，为了避免类型转换异常ClassCastException
+        //那么我们需要在转换之前做类型检查
+        if(c instanceof JianJiaoChicken) {
+            JianJiaoChicken jjc = (JianJiaoChicken) c;//大类型转换为小类型，强制转换（向下转型）
+            jjc.song();
+        }
     }
 }
 abstract class Chicken1{
