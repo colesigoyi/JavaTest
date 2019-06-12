@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="代理模式">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="静态代理模式">
+      <change afterPath="$PROJECT_DIR$/src/test/Test0612_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test0612_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0612_5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,24 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test0608_3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test0608_4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0609_1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,15 +118,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0612_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state>
+              <caret selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Test0612_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="71" selection-end-column="1" />
+              <folding>
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Test0603_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -174,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day1214/UpdateStu.java" />
         <option value="$PROJECT_DIR$/src/day1215/Emp.java" />
         <option value="$PROJECT_DIR$/src/day1216/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/SelectSort.java" />
@@ -225,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/test/Test0612_3.java" />
         <option value="$PROJECT_DIR$/src/test/Test0612_4.java" />
         <option value="$PROJECT_DIR$/src/test/Test0612_5.java" />
+        <option value="$PROJECT_DIR$/src/test/Test0612_6.java" />
       </list>
     </option>
   </component>
@@ -307,6 +319,20 @@
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0612_5.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0612_6.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -357,7 +383,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560353008919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560354347353" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -391,20 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test0612_5">
-    <configuration name="Test0612_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test0612_1" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test0612_6">
     <configuration name="Test0612_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test0612_2" />
       <module name="java_test" />
@@ -457,20 +470,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test0612_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test0612_6" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test0612_1" />
       <item itemvalue="Application.Test0612_2" />
       <item itemvalue="Application.Test0612_3" />
       <item itemvalue="Application.Test0612_4" />
       <item itemvalue="Application.Test0612_5" />
+      <item itemvalue="Application.Test0612_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0612_6" />
         <item itemvalue="Application.Test0612_5" />
         <item itemvalue="Application.Test0612_4" />
         <item itemvalue="Application.Test0612_3" />
         <item itemvalue="Application.Test0612_2" />
-        <item itemvalue="Application.Test0612_1" />
       </list>
     </recent_temporary>
   </component>
@@ -549,14 +575,7 @@
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
-      <workItem from="1560273383826" duration="9491000" />
-    </task>
-    <task id="LOCAL-00011" summary="add midVal">
-      <created>1559445758678</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1559445758678</updated>
+      <workItem from="1560273383826" duration="10728000" />
     </task>
     <task id="LOCAL-00012" summary="双色球模拟器">
       <created>1559458847816</created>
@@ -894,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560337371042</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="静态代理模式">
+      <created>1560353113545</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1560353113545</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -930,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439386000" />
+    <option name="totallyTimeSpent" value="440623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,7 +981,7 @@
       <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.41033435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27891156" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" weight="0.27891156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1059,7 +1085,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="封装，成员变量与局部变量" />
     <MESSAGE value="构造方法" />
     <MESSAGE value="this关键字" />
     <MESSAGE value="值传递与引用传递" />
@@ -1084,14 +1109,14 @@
     <MESSAGE value="object类" />
     <MESSAGE value="简单工厂模式" />
     <MESSAGE value="代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
+    <MESSAGE value="静态代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态代理模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day0107/ThreadTest.java" />
     <entry file="file://$PROJECT_DIR$/src/day0107/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/day0107/AssertTest.java" />
     <entry file="file://$PROJECT_DIR$/src/day0107/SwapDemo.java" />
@@ -1358,13 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test0603_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0602_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1496,11 +1514,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0612_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state>
+          <caret selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test0603_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test0612_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
           </folding>
         </state>
       </provider>
