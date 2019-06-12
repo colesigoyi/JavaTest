@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="设计模式：策略模式">
-      <change afterPath="$PROJECT_DIR$/src/test/Test0612_3.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="object类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test0612_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0612_3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/Test0612_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#611#612#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
@@ -129,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0612_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding>
                 <element signature="e#604#605#0" expanded="true" />
                 <element signature="e#671#672#0" expanded="true" />
@@ -340,7 +340,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560331867308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560334981764" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -532,14 +532,7 @@
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
-      <workItem from="1560273383826" duration="5180000" />
-    </task>
-    <task id="LOCAL-00006" summary="二维数组练习">
-      <created>1559409480935</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1559409480935</updated>
+      <workItem from="1560273383826" duration="5965000" />
     </task>
     <task id="LOCAL-00007" summary="最值查找">
       <created>1559410302269</created>
@@ -877,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560331047665</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="object类">
+      <created>1560334216663</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1560334216663</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -913,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435075000" />
+    <option name="totallyTimeSpent" value="435860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1042,7 +1042,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="双色球模拟器" />
     <MESSAGE value="面向对象" />
     <MESSAGE value="封装" />
     <MESSAGE value="封装，成员变量与局部变量" />
@@ -1067,7 +1066,8 @@
     <MESSAGE value="设计模式" />
     <MESSAGE value="设计模式：模板方法" />
     <MESSAGE value="设计模式：策略模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式：策略模式" />
+    <MESSAGE value="object类" />
+    <option name="LAST_COMMIT_MESSAGE" value="object类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1444,7 +1444,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/Test0612_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#611#612#0" expanded="true" />
             <element signature="e#632#633#0" expanded="true" />
@@ -1457,8 +1457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0612_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding>
             <element signature="e#604#605#0" expanded="true" />
             <element signature="e#671#672#0" expanded="true" />
