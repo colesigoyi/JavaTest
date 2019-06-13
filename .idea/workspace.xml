@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="内部类">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="数据结构：链表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test0613_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0613_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,8 +160,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0613_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day1216/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/ReverseSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/Jerque.java" />
@@ -250,6 +254,7 @@
         <option value="$PROJECT_DIR$/src/test/Test0612_5.java" />
         <option value="$PROJECT_DIR$/src/test/Test0612_6.java" />
         <option value="$PROJECT_DIR$/src/test/Test0612_7.java" />
+        <option value="$PROJECT_DIR$/src/test/Test0613_1.java" />
       </list>
     </option>
   </component>
@@ -375,7 +380,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560359035594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560435699719" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -409,20 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test0612_7">
-    <configuration name="Test0612_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test0612_3" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test0613_1">
     <configuration name="Test0612_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test0612_4" />
       <module name="java_test" />
@@ -475,20 +467,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test0613_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test0613_1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test0612_3" />
       <item itemvalue="Application.Test0612_4" />
       <item itemvalue="Application.Test0612_5" />
       <item itemvalue="Application.Test0612_6" />
       <item itemvalue="Application.Test0612_7" />
+      <item itemvalue="Application.Test0613_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0613_1" />
         <item itemvalue="Application.Test0612_7" />
         <item itemvalue="Application.Test0612_6" />
         <item itemvalue="Application.Test0612_5" />
         <item itemvalue="Application.Test0612_4" />
-        <item itemvalue="Application.Test0612_3" />
       </list>
     </recent_temporary>
   </component>
@@ -567,14 +572,7 @@
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
-      <workItem from="1560273383826" duration="15162000" />
-    </task>
-    <task id="LOCAL-00015" summary="封装，成员变量与局部变量">
-      <created>1559535277351</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1559535277351</updated>
+      <workItem from="1560273383826" duration="16846000" />
     </task>
     <task id="LOCAL-00016" summary="构造方法">
       <created>1559562000460</created>
@@ -912,7 +910,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560358064635</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="数据结构：链表">
+      <created>1560359091101</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1560359091101</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -948,7 +953,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445057000" />
+    <option name="totallyTimeSpent" value="446741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -961,6 +966,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="738" y="23" width="702" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -969,7 +975,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.41033435" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.41033435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27891156" />
@@ -1076,7 +1082,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="一对一关系" />
     <MESSAGE value="static关键字" />
     <MESSAGE value="main方法分析" />
     <MESSAGE value="代码块" />
@@ -1101,14 +1106,14 @@
     <MESSAGE value="适配器模式" />
     <MESSAGE value="方法内部类" />
     <MESSAGE value="内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="内部类" />
+    <MESSAGE value="数据结构：链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构：链表" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day0107/AssertTest.java" />
     <entry file="file://$PROJECT_DIR$/src/day0107/SwapDemo.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -1556,6 +1561,17 @@
             <element signature="e#2334#2335#0" expanded="true" />
             <element signature="e#2634#2635#0" expanded="true" />
             <element signature="e#2652#2653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test0613_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
