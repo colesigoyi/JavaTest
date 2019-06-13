@@ -30,6 +30,7 @@ public class Test0613_1 {
     //递归算法：方法调用自己
     //1、递归必须要有出口
     //2、递归内存消耗大，容易发生内存溢出
+    //3、层次调用越多，越危险
     public static int jieCheng2(int num){
         if(num == 1){
             return 1;
