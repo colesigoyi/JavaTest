@@ -14,6 +14,8 @@ public class Test0613_1 {
     public static void main(String[] args) {
         int result = jieCheng(10);
         System.out.println(result);
+        int result2 = jieCheng2(10);
+        System.out.println(result2);
     }
 
     public static int jieCheng(int num){
@@ -24,5 +26,14 @@ public class Test0613_1 {
             i--;
         }while (i>1);
         return result;
+    }
+    //递归算法：方法调用自己
+    //1、递归必须要有出口
+    //2、递归内存消耗大，容易发生内存溢出
+    public static int jieCheng2(int num){
+        if(num == 1){
+            return 1;
+        }
+        return num * jieCheng2(num-1);
     }
 }
