@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="数据结构：链表">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="链表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test0613_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0613_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test0614_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0614_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,15 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Program.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0612_1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,11 +151,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test0613_1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Test0614_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day1216/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/ReverseSort.java" />
         <option value="$PROJECT_DIR$/src/day1216/Jerque.java" />
         <option value="$PROJECT_DIR$/src/day1216/Stringtest.java" />
@@ -254,6 +263,7 @@
         <option value="$PROJECT_DIR$/src/test/Test0612_6.java" />
         <option value="$PROJECT_DIR$/src/test/Test0612_7.java" />
         <option value="$PROJECT_DIR$/src/test/Test0613_1.java" />
+        <option value="$PROJECT_DIR$/src/test/Test0614_1.java" />
       </list>
     </option>
   </component>
@@ -379,7 +389,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560448769104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560533482142" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -571,21 +581,7 @@
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
-      <workItem from="1560273383826" duration="17864000" />
-    </task>
-    <task id="LOCAL-00018" summary="this关键字">
-      <created>1559563111361</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1559563111361</updated>
-    </task>
-    <task id="LOCAL-00019" summary="值传递与引用传递">
-      <created>1559582130229</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1559582130229</updated>
+      <workItem from="1560273383826" duration="18986000" />
     </task>
     <task id="LOCAL-00020" summary="一对一关系">
       <created>1559661633201</created>
@@ -916,7 +912,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560436132284</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="递归算法">
+      <created>1560448661186</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1560448661186</updated>
+    </task>
+    <task id="LOCAL-00068" summary="链表">
+      <created>1560448781163</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1560448781163</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -952,7 +962,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447759000" />
+    <option name="totallyTimeSpent" value="448881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -977,7 +987,7 @@
       <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.41033435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27891156" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" weight="0.27891156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1081,8 +1091,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="static关键字" />
-    <MESSAGE value="main方法分析" />
     <MESSAGE value="代码块" />
     <MESSAGE value="单例设计模式" />
     <MESSAGE value="对象数组" />
@@ -1106,14 +1114,15 @@
     <MESSAGE value="方法内部类" />
     <MESSAGE value="内部类" />
     <MESSAGE value="数据结构：链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构：链表" />
+    <MESSAGE value="递归算法" />
+    <MESSAGE value="链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day0107/SwapDemo.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -1568,6 +1577,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test0614_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
