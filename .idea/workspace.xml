@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="assert断言">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ex/JDK7Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,15 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test0615_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/qfedu/sms/vo/Test0615_2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,14 +95,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
                 <element signature="e#247#248#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/ex/JDK7Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/Test0601_5.java" />
         <option value="$PROJECT_DIR$/src/test/Test0602_1.java" />
         <option value="$PROJECT_DIR$/src/test/Test0602_2.java" />
         <option value="$PROJECT_DIR$/src/test/Test0602_3.java" />
@@ -245,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/ex/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ex/Login.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/ex/JDK7Demo.java" />
       </list>
     </option>
   </component>
@@ -260,8 +263,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="738" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
     <option name="y" value="23" />
     <option name="width" value="702" />
     <option name="height" value="877" />
@@ -402,7 +405,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560597431196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560602363058" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -436,7 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AssertDemo">
+  <component name="RunManager" selected="Application.JDK7Demo">
     <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.AssertDemo" />
       <module name="java_test" />
@@ -451,8 +454,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.Login" />
+    <configuration name="JDK7Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.JDK7Demo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -464,8 +467,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test0615_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test0615_1" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.Login" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -504,19 +507,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test0615_1" />
       <item itemvalue="Application.Test0615_3" />
       <item itemvalue="Application.Test0615_4_Exception" />
       <item itemvalue="Application.Login" />
       <item itemvalue="Application.AssertDemo" />
+      <item itemvalue="Application.JDK7Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDK7Demo" />
         <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.Test0615_4_Exception" />
         <item itemvalue="Application.Test0615_3" />
-        <item itemvalue="Application.Test0615_1" />
       </list>
     </recent_temporary>
   </component>
@@ -596,14 +599,7 @@
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
       <workItem from="1560273383826" duration="29931000" />
-      <workItem from="1560585760963" duration="7477000" />
-    </task>
-    <task id="LOCAL-00037" summary="继承的应用示例">
-      <created>1559971315880</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1559971315880</updated>
+      <workItem from="1560585760963" duration="8423000" />
     </task>
     <task id="LOCAL-00038" summary="final关键字">
       <created>1559972893327</created>
@@ -941,7 +937,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560597296412</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="assert断言">
+      <created>1560597434320</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1560597434321</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -977,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467303000" />
+    <option name="totallyTimeSpent" value="468249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -989,7 +992,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="738" y="23" width="702" height="877" extended-state="0" />
+    <frame x="36" y="23" width="1404" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
@@ -999,10 +1002,10 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.4832827" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.20514706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.28707483" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27763158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39455783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1138,13 +1141,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test0601_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0601.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1598,11 +1594,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ex/JDK7Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
