@@ -7,7 +7,7 @@ package test;
  * @ desc: 补码
  **/
 
-public class test190529 {
+public class Test190529 {
     public static void main(String[] args) {
         //-8
         //0000 1000 8的二进制
