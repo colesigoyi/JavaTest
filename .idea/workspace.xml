@@ -401,7 +401,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560597110348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560597277027" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -435,9 +435,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.Login" />
+  <component name="RunManager" selected="Application.AssertDemo">
+    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.AssertDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -449,8 +449,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test0614_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test0614_1" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.Login" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -502,19 +502,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test0614_1" />
       <item itemvalue="Application.Test0615_1" />
       <item itemvalue="Application.Test0615_3" />
       <item itemvalue="Application.Test0615_4_Exception" />
       <item itemvalue="Application.Login" />
+      <item itemvalue="Application.AssertDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.Test0615_4_Exception" />
         <item itemvalue="Application.Test0615_3" />
         <item itemvalue="Application.Test0615_1" />
-        <item itemvalue="Application.Test0614_1" />
       </list>
     </recent_temporary>
   </component>
