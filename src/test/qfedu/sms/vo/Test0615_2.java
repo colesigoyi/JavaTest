@@ -1,4 +1,4 @@
-package test;
+package test.qfedu.sms.vo;
 
 /**
  * @ program: java_study
