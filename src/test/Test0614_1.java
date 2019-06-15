@@ -1,6 +1,5 @@
 package test;
 
-import javax.xml.soap.Node;
 
 /**
  * @ program: java_study
@@ -13,12 +12,22 @@ import javax.xml.soap.Node;
 public class Test0614_1 {
     public static void main(String[] args) {
         NodeManager nm = new NodeManager();
+        System.out.println("------------添加-------------");
         nm.add(5);
         nm.add(4);
         nm.add(3);
         nm.add(2);
         nm.add(1);
         nm.print();
+        System.out.println("------------删除-------------");
+        nm.del(3);
+        nm.print();
+        System.out.println("------------查找-------------");
+        System.out.println(nm.find(1));
+        System.out.println("------------删除-------------");
+        nm.update(1,10);
+        nm.print();
+
 
     }
 }
@@ -33,8 +42,13 @@ class NodeManager{
             root.addNode(data);
         }
     }
-    public void del(int node){
-
+    public void del(int data){
+        if(root==null)return;
+        if(root.getData() == data){
+            root = root.next;
+        }else {
+            root.delNode(data);
+        }
     }
     public void print(){
         if(root!=null){
@@ -43,11 +57,26 @@ class NodeManager{
             System.out.println();
         }
     }
-    public boolean find(){
-        return false;
+    public boolean find(int data){
+        if(root==null){
+            return false;
+        }
+        if(root.getData()==data){
+            return true;
+        }else {
+            return root.findNode(data);
+        }
     }
-    public void update(int oldData, int newData){
-
+    public boolean update(int oldData, int newData){
+        if(root == null){
+            return false;
+        }
+        if(root.getData()==oldData){
+            root.setData(newData);
+            return true;
+        }else {
+            return root.updateNode(oldData, newData);
+        }
     }
     public void insert(int index, int data){
 
@@ -76,7 +105,13 @@ class NodeManager{
         }
         //删除节点
         public void delNode(int data){
-
+            if(this.next!=null){
+                if(this.next.data == data){
+                    this.next = this.next.next;
+                }else {
+                    this.next.delNode(data);
+                }
+            }
         }
         //输出所有节点
         public void printNode(){
@@ -86,11 +121,26 @@ class NodeManager{
             }
         }
         public boolean findNode(int data){
+            if(this.next != null){
+                if(this.next.data == data){
+                    return true;
+                }else {
+                    return this.next.findNode(data);
+                }
+            }
             return false;
         }
         //更新节点
-        public void updateNode(int oldData, int newData){
-
+        public boolean updateNode(int oldData, int newData){
+            if(this.next != null){
+                if(this.next.data == oldData){
+                    this.next.data = newData;
+                    return true;
+                }else {
+                    return this.next.updateNode(oldData, newData);
+                }
+            }
+            return false;
         }
         //插入数据
         public void insert(int index, int data){
