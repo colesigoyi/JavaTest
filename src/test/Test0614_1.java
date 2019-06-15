@@ -27,13 +27,15 @@ public class Test0614_1 {
         System.out.println("------------删除-------------");
         nm.update(1,10);
         nm.print();
-
-
+        System.out.println("------------插入-------------");
+        nm.insert(1,20);
+        nm.print();
     }
 }
 
 class NodeManager{
     private Node root;//根节点
+    private int currentIndex = 0;//节点序号，每次操作从0开始
 
     public void add(int data){
         if(root == null){
@@ -78,7 +80,17 @@ class NodeManager{
             return root.updateNode(oldData, newData);
         }
     }
+    //向索引之前插入
     public void insert(int index, int data){
+        if(index < 0)return;
+        currentIndex = 0;
+        if(index == currentIndex){
+            Node newNode = new Node(data);
+            newNode.next = root;
+            root = newNode;
+        }else {
+            root.insertNode(index, data);
+        }
 
     }
 
@@ -143,8 +155,15 @@ class NodeManager{
             return false;
         }
         //插入数据
-        public void insert(int index, int data){
-
+        public void insertNode(int index, int data){
+            currentIndex++;
+            if(index == currentIndex){
+                Node newNode = new Node(data);
+                newNode.next = this.next;
+                this.next = newNode;
+            }else {
+                this.next.insertNode(index, data);
+            }
         }
     }
 }
