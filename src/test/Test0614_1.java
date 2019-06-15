@@ -1,5 +1,7 @@
 package test;
 
+import javax.xml.soap.Node;
+
 /**
  * @ program: java_study
  * @ author:  TaoXueFeng
@@ -10,12 +12,46 @@ package test;
 
 public class Test0614_1 {
     public static void main(String[] args) {
+        NodeManager nm = new NodeManager();
+        nm.add(5);
+        nm.add(4);
+        nm.add(3);
+        nm.add(2);
+        nm.add(1);
+        nm.print();
 
     }
 }
 
 class NodeManager{
     private Node root;//根节点
+
+    public void add(int data){
+        if(root == null){
+            root = new Node(data);
+        }else {
+            root.addNode(data);
+        }
+    }
+    public void del(int node){
+
+    }
+    public void print(){
+        if(root!=null){
+            System.out.print(root.getData() + "->");
+            root.printNode();
+            System.out.println();
+        }
+    }
+    public boolean find(){
+        return false;
+    }
+    public void update(int oldData, int newData){
+
+    }
+    public void insert(int index, int data){
+
+    }
 
 
     private class Node{
@@ -32,7 +68,11 @@ class NodeManager{
         }
         //添加节点
         public void addNode(int data){
-
+            if(this.next == null){
+                this.next = new Node(data);
+            }else {
+                this.next.addNode(data);
+            }
         }
         //删除节点
         public void delNode(int data){
@@ -40,7 +80,10 @@ class NodeManager{
         }
         //输出所有节点
         public void printNode(){
-
+            if(this.next!=null){
+                System.out.print(this.next.data + "->");
+                this.next.printNode();
+            }
         }
         public boolean findNode(int data){
             return false;

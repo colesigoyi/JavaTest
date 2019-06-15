@@ -163,17 +163,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Test0614_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="373">
+              <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
               <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,8 +281,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="738" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="34" />
     <option name="y" value="23" />
     <option name="width" value="702" />
     <option name="height" value="877" />
@@ -339,6 +341,13 @@
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0614_1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -389,7 +398,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560533482142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560570694423" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -423,20 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test0613_1">
-    <configuration name="Test0612_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test0612_4" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test0614_1">
     <configuration name="Test0612_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test0612_5" />
       <module name="java_test" />
@@ -489,20 +485,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test0614_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test0614_1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test0612_4" />
       <item itemvalue="Application.Test0612_5" />
       <item itemvalue="Application.Test0612_6" />
       <item itemvalue="Application.Test0612_7" />
       <item itemvalue="Application.Test0613_1" />
+      <item itemvalue="Application.Test0614_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0614_1" />
         <item itemvalue="Application.Test0613_1" />
         <item itemvalue="Application.Test0612_7" />
         <item itemvalue="Application.Test0612_6" />
         <item itemvalue="Application.Test0612_5" />
-        <item itemvalue="Application.Test0612_4" />
       </list>
     </recent_temporary>
   </component>
@@ -581,14 +590,7 @@
       <workItem from="1559403012007" duration="29973000" />
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
-      <workItem from="1560273383826" duration="18986000" />
-    </task>
-    <task id="LOCAL-00020" summary="一对一关系">
-      <created>1559661633201</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1559661633201</updated>
+      <workItem from="1560273383826" duration="20020000" />
     </task>
     <task id="LOCAL-00021" summary="一对一关系">
       <created>1559661709557</created>
@@ -926,7 +928,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560448781163</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="链表">
+      <created>1560533616824</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1560533616824</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -962,7 +971,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448881000" />
+    <option name="totallyTimeSpent" value="449915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,7 +983,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="738" y="23" width="702" height="877" extended-state="0" />
+    <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
@@ -984,7 +993,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.41033435" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.2298091" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" weight="0.27891156" />
@@ -1582,17 +1591,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0614_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="373">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
           <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
           </folding>
         </state>
       </provider>
