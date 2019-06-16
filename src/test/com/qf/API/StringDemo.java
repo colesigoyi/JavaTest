@@ -5,6 +5,7 @@ package test.com.qf.API;
  * @ author:  TaoXueFeng
  * @ create: 2019-06-15 21:00
  * @ desc: String字符串操作
+ *          String表示一个字符串，内部使用字符数组实现，该类不可变，不能被继承（最终类）
  **/
 
 public class StringDemo {
@@ -17,6 +18,9 @@ public class StringDemo {
         //面试题：以下代码创建了几个对象？2个对象
         String s2 = new String("String");//在堆中创建
 
+        String s3 = "String";//在常量池中查找
+
         System.out.println(s1==s2);//false
+        System.out.println(s1==s3);//true
     }
 }
