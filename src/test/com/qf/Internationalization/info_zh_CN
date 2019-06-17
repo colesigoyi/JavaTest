@@ -1,6 +1,0 @@
-#中文配置文件
-system.name = 员工管理系统
-input.username = 请输入用户名
-input.password = 请输入密码
-login.success = 登录成功！
-login.error = 登录失败！

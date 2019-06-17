@@ -4,11 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="StringBuilder">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="程序国际化">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/i18n/LocaleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,28 +48,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/LocaleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/MathAndRandom/MathDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN.properties">
+          <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,6 +95,7 @@
       <list>
         <option value="Singleton" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -96,13 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/Test0603_2.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0603_3.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0603_4.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0603_5.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0604_1.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0604_2.java" />
-        <option value="$PROJECT_DIR$/src/test/Test0604_3.java" />
         <option value="$PROJECT_DIR$/src/test/Test0604_4.java" />
         <option value="$PROJECT_DIR$/src/test/Test0604_5_designMode.java" />
         <option value="$PROJECT_DIR$/src/test/Test0604_6.java" />
@@ -143,10 +155,17 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/API/StringBufferDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/API/StringBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/API/StringBuilderDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CH.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/i18n/LocaleDemo.java" />
       </list>
     </option>
   </component>
@@ -162,30 +181,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="35" />
     <option name="y" value="23" />
-    <option name="width" value="702" />
+    <option name="width" value="1405" />
     <option name="height" value="877" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Duplicates</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,50 +248,11 @@
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="Internationalization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +265,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560759546172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560766195674" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -312,7 +273,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Properties" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -342,13 +303,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringBuilderDemo">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.ex.Login" />
+  <component name="RunManager" selected="Application.MathDemo">
+    <configuration name="LocaleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.i18n.LocaleDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.qf.ex.*" />
+          <option name="PATTERN" value="test.com.qf.i18n.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.MathAndRandom.MathDemo" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.MathAndRandom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,19 +356,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.API.StringDemo" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test0616_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.API.Test0616_String" />
       <module name="java_test" />
@@ -409,19 +370,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Login" />
-      <item itemvalue="Application.StringDemo" />
       <item itemvalue="Application.Test0616_String" />
       <item itemvalue="Application.StringBufferDemo" />
       <item itemvalue="Application.StringBuilderDemo" />
+      <item itemvalue="Application.LocaleDemo" />
+      <item itemvalue="Application.MathDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathDemo" />
+        <item itemvalue="Application.LocaleDemo" />
         <item itemvalue="Application.StringBuilderDemo" />
         <item itemvalue="Application.StringBufferDemo" />
         <item itemvalue="Application.Test0616_String" />
-        <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -501,14 +462,10 @@
       <workItem from="1559561466287" duration="24260000" />
       <workItem from="1559817333802" duration="15058000" />
       <workItem from="1560273383826" duration="29931000" />
-      <workItem from="1560585760963" duration="21487000" />
-    </task>
-    <task id="LOCAL-00048" summary="多态instanceof关键字">
-      <created>1560181865100</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1560181865100</updated>
+      <workItem from="1560585760963" duration="25291000" />
+      <workItem from="1560763567417" duration="1025000" />
+      <workItem from="1560764680004" duration="232000" />
+      <workItem from="1560764938194" duration="1207000" />
     </task>
     <task id="LOCAL-00049" summary="多态instanceof关键字">
       <created>1560182207641</created>
@@ -846,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560757744133</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="程序国际化">
+      <created>1560759661965</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1560759661965</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481313000" />
+    <option name="totallyTimeSpent" value="487581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,8 +858,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1404" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="35" y="23" width="1405" height="877" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -904,25 +867,25 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.24779412" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.25863335" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32789117" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" weight="0.27763158" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27763158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39342105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50832075" side_tool="true" weight="0.2" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292517" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24210526" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275862" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3263158" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3276316" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="15" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.32894737" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24734446" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2468773" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32813475" />
@@ -1011,7 +974,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="多态instanceof关键字" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="设计模式：模板方法" />
     <MESSAGE value="设计模式：策略模式" />
@@ -1036,34 +998,14 @@
     <MESSAGE value="String字符串常用方法" />
     <MESSAGE value="StringBuffer" />
     <MESSAGE value="StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder" />
+    <MESSAGE value="程序国际化" />
+    <option name="LAST_COMMIT_MESSAGE" value="程序国际化" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test0604_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test0603_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test0602_6_Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0602_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1438,31 +1380,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CH.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US" />
+    <entry file="file://$PROJECT_DIR$/src/test/Test0601.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_en_US.properties">
       <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/LocaleDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/info_zh_CN.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/i18n/LocaleDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_en_US">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Internationalization/info_zh_CN">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
