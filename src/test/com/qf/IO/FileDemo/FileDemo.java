@@ -75,7 +75,6 @@ public class FileDemo {
         //        return pathname.getName().endsWith(".txt");//过滤文件
         //    }
         //});
-
         File[] files = f5.listFiles((pathname) -> pathname.getName().endsWith(".txt"));
         for (File f:files){
             System.out.println(f.getName());
