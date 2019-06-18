@@ -20,7 +20,7 @@ public class ByteStreamDemo {
 
     }
     private static void out(){
-        String path = "/Users/taoxuefeng/Documents/02_学习文件/" +
+        String path = "/Users/***/Documents/02_学习文件/" +
                 "01_Java/java/java_study/src/test/com/qf/IO/FileDemo/";
         //0.确定文件
         File file = new File(path + "newTest.txt");
