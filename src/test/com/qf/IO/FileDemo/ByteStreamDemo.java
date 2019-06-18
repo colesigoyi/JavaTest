@@ -14,10 +14,8 @@ import java.io.*;
 public class ByteStreamDemo {
 
     public static void main(String[] args) {
-
         out();
         in();
-
     }
     private static void out(){
         String path = "/Users/***/Documents/02_学习文件/" +

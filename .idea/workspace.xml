@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="File类:查找文件">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteStreamDemo.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="字节输入与输出">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/newTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/newTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/FileDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="15" column="70" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="70" />
+            <state relative-caret-position="322">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -366,7 +364,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560870526139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560870772433" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -566,14 +564,7 @@
       <workItem from="1560585760963" duration="25291000" />
       <workItem from="1560763567417" duration="1025000" />
       <workItem from="1560764680004" duration="232000" />
-      <workItem from="1560764938194" duration="29984000" />
-    </task>
-    <task id="LOCAL-00067" summary="递归算法">
-      <created>1560448661186</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1560448661186</updated>
+      <workItem from="1560764938194" duration="30209000" />
     </task>
     <task id="LOCAL-00068" summary="链表">
       <created>1560448781163</created>
@@ -911,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560868211418</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="字节输入与输出">
+      <created>1560870546183</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1560870546183</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -947,7 +945,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516358000" />
+    <option name="totallyTimeSpent" value="516583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,13 +970,13 @@
       <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.20793535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.27763158" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" weight="0.27763158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39342105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50832075" side_tool="true" weight="0.2" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24210526" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3263158" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1076,7 +1074,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="基本数据类型包装类" />
     <MESSAGE value="change name" />
     <MESSAGE value="包与访问修饰符" />
     <MESSAGE value="异常处理throw" />
@@ -1101,7 +1098,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="File类" />
     <MESSAGE value="File类:查找文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="File类:查找文件" />
+    <MESSAGE value="字节输入与输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="字节输入与输出" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1529,13 +1527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/FileDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="15" column="70" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemonewTest.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1544,8 +1535,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/FileDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
