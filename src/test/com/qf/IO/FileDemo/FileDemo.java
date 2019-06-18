@@ -17,7 +17,7 @@ import java.util.Date;
 public class FileDemo {
     public static void main(String[] args) {
 
-        String path = "/Users/taoxuefeng/Documents/02_学习文件/" +
+        String path = "/Users/***/Documents/02_学习文件/" +
                 "01_Java/java/java_study/src/test/com/qf/IO/FileDemo/";
 
         //File类表示一个文件或目录
