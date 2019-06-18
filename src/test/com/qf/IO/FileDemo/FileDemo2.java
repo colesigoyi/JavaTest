@@ -12,7 +12,7 @@ import java.io.File;
 public class FileDemo2 {
     public static void main(String[] args) {
 
-        String path = "/Users/taoxuefeng/Documents/02_学习文件/" +
+        String path = "/Users/***/Documents/02_学习文件/" +
                 "01_Java/java/java_study/src/test/com/qf/IO/FileDemo";
 
 
