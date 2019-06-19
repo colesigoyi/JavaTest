@@ -13,6 +13,6 @@
     </wildcardResourcePatterns>
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF-8" />
   </component>
 </project>
