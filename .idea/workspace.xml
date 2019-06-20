@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="对象流">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteArrayStreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,11 +103,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+            <state>
+              <caret selection-end-line="113" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state>
+              <caret selection-end-line="68" selection-end-column="1" />
               <folding>
                 <element signature="e#472#473#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
@@ -130,6 +133,20 @@
                 <element signature="e#745#746#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteArrayStreamDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/ex/Login.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ex/AssertDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ex/JDK7Demo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/API/StringDemo.java" />
@@ -213,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PrintStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteArrayStreamDemo.java" />
       </list>
     </option>
   </component>
@@ -371,7 +388,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561015508842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561047231882" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -409,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectStreamDemo">
+  <component name="RunManager" selected="Application.ByteArrayStreamDemo">
     <configuration name="BufferStreamDeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.BufferStreamDeam" />
       <module name="java_test" />
@@ -423,8 +440,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.ChangeStreamDemo" />
+    <configuration name="ByteArrayStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.ByteArrayStreamDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -436,8 +453,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.CopyFileDemo" />
+    <configuration name="ChangeStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.ChangeStreamDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -476,19 +493,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CopyFileDemo" />
       <item itemvalue="Application.ChangeStreamDemo" />
       <item itemvalue="Application.BufferStreamDeam" />
       <item itemvalue="Application.PrintStreamDemo" />
       <item itemvalue="Application.ObjectStreamDemo" />
+      <item itemvalue="Application.ByteArrayStreamDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteArrayStreamDemo" />
         <item itemvalue="Application.ObjectStreamDemo" />
         <item itemvalue="Application.PrintStreamDemo" />
         <item itemvalue="Application.BufferStreamDeam" />
         <item itemvalue="Application.ChangeStreamDemo" />
-        <item itemvalue="Application.CopyFileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -571,14 +588,7 @@
       <workItem from="1560585760963" duration="25291000" />
       <workItem from="1560763567417" duration="1025000" />
       <workItem from="1560764680004" duration="232000" />
-      <workItem from="1560764938194" duration="47887000" />
-    </task>
-    <task id="LOCAL-00082" summary="异常处理throw">
-      <created>1560591321584</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1560591321584</updated>
+      <workItem from="1560764938194" duration="49584000" />
     </task>
     <task id="LOCAL-00083" summary="异常处理">
       <created>1560592428571</created>
@@ -916,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561015116896</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="对象流">
+      <created>1561015520532</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1561015520532</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -952,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="534261000" />
+    <option name="totallyTimeSpent" value="535958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1113,16 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/API/MD5Demo/MD5Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/API/BinaryTree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1434,10 +1441,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="113" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state>
+          <caret selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
@@ -1455,10 +1472,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteArrayStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
