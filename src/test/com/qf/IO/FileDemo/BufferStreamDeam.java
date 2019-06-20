@@ -11,6 +11,10 @@ import java.io.*;
  *
  *              BufferOutputStream内部默认缓存大小为8KB，每次写入时存储到缓存中的byte数组里
  *              当数组存满时，会把数组中的数据写入文件当中，缓存下标归零
+ *
+ *          字符流
+ *          1.加入字符缓冲流，增强读取功能（readLine）
+ *          2.更高效的读取数据
  **/
 
 public class BufferStreamDeam {
@@ -61,6 +65,21 @@ public class BufferStreamDeam {
     }
     //-----------------------------------字符缓冲流-------------------------------------
     private static void charReader(String path){
-
+        File file = new File(path + "Test.txt");
+        try {
+            Reader reader = new FileReader(file);
+            //卫子夫六提供缓冲，以达到高效读取
+            BufferedReader br = new BufferedReader(reader);
+            char[] cs = new char[1024];
+            int len = -1;
+            while ((len=br.read(cs)) != -1){
+                System.out.println(new String(cs, 0, len));
+            }
+            br.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

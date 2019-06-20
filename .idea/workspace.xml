@@ -4,11 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="字节流与字符流转换">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PathFile.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="字节缓冲流">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -356,7 +354,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560955838067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561005098133" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -556,28 +554,7 @@
       <workItem from="1560585760963" duration="25291000" />
       <workItem from="1560763567417" duration="1025000" />
       <workItem from="1560764680004" duration="232000" />
-      <workItem from="1560764938194" duration="41945000" />
-    </task>
-    <task id="LOCAL-00074" summary="基本数据类型包装类">
-      <created>1560574807275</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1560574807275</updated>
-    </task>
-    <task id="LOCAL-00075" summary="基本数据类型包装类">
-      <created>1560576124008</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1560576124008</updated>
-    </task>
-    <task id="LOCAL-00076" summary="change name">
-      <created>1560576135053</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1560576135053</updated>
+      <workItem from="1560764938194" duration="43837000" />
     </task>
     <task id="LOCAL-00077" summary="包与访问修饰符">
       <created>1560576222136</created>
@@ -901,7 +878,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560944841632</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="工具类">
+      <created>1560955859236</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1560955859236</updated>
+    </task>
+    <task id="LOCAL-00124" summary="字节缓冲流">
+      <created>1560955872234</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1560955872234</updated>
+    </task>
+    <task id="LOCAL-00125" summary="字节缓冲流">
+      <created>1561004589519</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1561004589519</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -937,7 +935,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528319000" />
+    <option name="totallyTimeSpent" value="530211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1066,8 +1064,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="assert断言" />
-    <MESSAGE value="String字符串" />
     <MESSAGE value="String字符串常用方法" />
     <MESSAGE value="StringBuffer" />
     <MESSAGE value="StringBuilder" />
@@ -1091,7 +1087,9 @@
     <MESSAGE value="复制文件" />
     <MESSAGE value="字节流" />
     <MESSAGE value="字节流与字符流转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="字节流与字符流转换" />
+    <MESSAGE value="工具类" />
+    <MESSAGE value="字节缓冲流" />
+    <option name="LAST_COMMIT_MESSAGE" value="字节缓冲流" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1432,9 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PathFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1442,10 +1437,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
