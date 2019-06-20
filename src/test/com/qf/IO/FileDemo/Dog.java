@@ -18,6 +18,9 @@ public class Dog implements Serializable {
     private String name;
     private int age;
     private String sex;
+
+    private transient int id;//在序列化中被忽略
+
     public static void main(String[] args) {
 
     }
