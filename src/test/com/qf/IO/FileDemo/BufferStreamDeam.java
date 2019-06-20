@@ -15,6 +15,10 @@ import java.io.*;
  *          字符流
  *          1.加入字符缓冲流，增强读取功能（readLine）
  *          2.更高效的读取数据
+ *
+ *          FileReader:内部使用InputStreamReader（Sun.nio.cs.StreamDecoder），解码过程，byte->char，默认缓存大小8k
+ *          BufferedReader:默认缓存大小8k，但是可以手动指定缓存大小,把数据直接读取到缓存中，减少每次转换过程，效率更高
+ *          BufferedWriter:同上
  **/
 
 public class BufferStreamDeam {
@@ -25,6 +29,8 @@ public class BufferStreamDeam {
         //System.out.println(path.getPath());
         byteWriter(path.getPath());
         byteReader(path.getPath());
+        charWriter(path.getPath());
+        charReader(path.getPath());
     }
     //-----------------------------------字节缓冲流-------------------------------------
     private static void byteWriter(String path){
@@ -76,6 +82,25 @@ public class BufferStreamDeam {
                 System.out.println(new String(cs, 0, len));
             }
             br.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void charWriter(String path){
+        File file = new File(path + "Test.txt");
+        try {
+            Writer writer = new FileWriter(file);
+            //构造一个字节缓冲流
+            BufferedWriter bw = new BufferedWriter(writer);
+
+            String info = "----BufferedWriter测试----";
+            bw.write(info);
+            bw.flush();
+            bw.close();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
