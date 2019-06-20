@@ -19,18 +19,18 @@ public class BufferStreamDeam {
 
         //PathFile path = new PathFile();
         //System.out.println(path.getPath());
-        byteWriter();
-        byteReader();
+        byteWriter(path.getPath());
+        byteReader(path.getPath());
     }
-
-    private static void byteWriter(){
-        File file = new File(path.getPath() + "Test.txt");
+    //-----------------------------------字节缓冲流-------------------------------------
+    private static void byteWriter(String path){
+        File file = new File(path + "Test.txt");
         try {
             OutputStream out = new FileOutputStream(file);
             //构造一个字节缓冲流
             BufferedOutputStream bos = new BufferedOutputStream(out);
 
-            String info = "Buffer测试";
+            String info = "----Buffer测试----";
             bos.write(info.getBytes());
             bos.close();
             //out.close();
@@ -42,8 +42,8 @@ public class BufferStreamDeam {
         }
     }
 
-    private static void byteReader(){
-        File file = new File(path.getPath() + "Test.txt");
+    private static void byteReader(String path){
+        File file = new File(path + "Test.txt");
         try(BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file))) {
             //构造一个字节缓冲流
             byte[] bytes = new byte[1024];
@@ -58,5 +58,9 @@ public class BufferStreamDeam {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    //-----------------------------------字符缓冲流-------------------------------------
+    private static void charReader(String path){
+
     }
 }
