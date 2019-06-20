@@ -4,10 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="打印流">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="对象流">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,12 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1054">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -120,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#472#473#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
@@ -376,7 +372,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561012509220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561012919261" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -576,14 +572,7 @@
       <workItem from="1560585760963" duration="25291000" />
       <workItem from="1560763567417" duration="1025000" />
       <workItem from="1560764680004" duration="232000" />
-      <workItem from="1560764938194" duration="46963000" />
-    </task>
-    <task id="LOCAL-00080" summary="异常处理">
-      <created>1560586185923</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1560586185924</updated>
+      <workItem from="1560764938194" duration="47642000" />
     </task>
     <task id="LOCAL-00081" summary="异常处理throw">
       <created>1560590148885</created>
@@ -921,7 +910,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561010667352</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="对象流">
+      <created>1561012570097</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1561012570097</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -957,7 +953,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533337000" />
+    <option name="totallyTimeSpent" value="534016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,10 +975,10 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.25675675" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.25675675" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.08707865" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.08707865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39342105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1086,7 +1082,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="StringBuilder" />
     <MESSAGE value="程序国际化" />
     <MESSAGE value="Math类" />
     <MESSAGE value="Random类" />
@@ -1111,7 +1106,8 @@
     <MESSAGE value="字节缓冲流" />
     <MESSAGE value="缓冲流" />
     <MESSAGE value="打印流" />
-    <option name="LAST_COMMIT_MESSAGE" value="打印流" />
+    <MESSAGE value="对象流" />
+    <option name="LAST_COMMIT_MESSAGE" value="对象流" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1432,10 +1428,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/dog.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
@@ -1453,21 +1456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/dog.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1054">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>

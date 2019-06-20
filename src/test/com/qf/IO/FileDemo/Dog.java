@@ -13,6 +13,7 @@ import java.io.Serializable;
     //什么时候对象需要被序列化？
         //1.把对象保存到文件中（存储到物理戒指）
         //2.对象需要在网络上传输时
+    //如果对象没有实现Serializabl接口，会抛异常
 public class Dog implements Serializable {
     private String name;
     private int age;
