@@ -1,6 +1,8 @@
 package test.com.qf.IO.FileDemo;
 
 import java.io.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * @ program: java_study
@@ -14,9 +16,40 @@ public class FileDivisionMergeDemo {
     static PathFile path = new PathFile();
 
     public static void main(String[] args) {
-        File file = new File(path.getPath() + "/千锋Java.mp4");
-        System.out.println(file.getPath());
-        division(file, 1024*1024*5, path.getPath());
+        //File file = new File(path.getPath() + "/千锋Java.mp4");
+        //System.out.println(file.getPath());
+        //division(file, 1024*1024*5, path.getPath());
+
+        try {
+            InputStream in1 = new FileInputStream(new File(path.getPath() + "/1-千锋Java.mp4"));
+            InputStream in2 = new FileInputStream(new File(path.getPath() + "/2-千锋Java.mp4"));
+            InputStream in3 = new FileInputStream(new File(path.getPath() + "/3-千锋Java.mp4"));
+            InputStream in4 = new FileInputStream(new File(path.getPath() + "/4-千锋Java.mp4"));
+            InputStream in5 = new FileInputStream(new File(path.getPath() + "/5-千锋Java.mp4"));
+            InputStream in6 = new FileInputStream(new File(path.getPath() + "/6-千锋Java.mp4"));
+            InputStream in7 = new FileInputStream(new File(path.getPath() + "/7-千锋Java.mp4"));
+            InputStream in8 = new FileInputStream(new File(path.getPath() + "/8-千锋Java.mp4"));
+            InputStream in9 = new FileInputStream(new File(path.getPath() + "/9-千锋Java.mp4"));
+
+            //集合工具类，内部实现使用了数组
+            Vector<InputStream> v = new Vector();
+            v.add(in1);
+            v.add(in2);
+            v.add(in3);
+            v.add(in4);
+            v.add(in5);
+            v.add(in6);
+            v.add(in7);
+            v.add(in8);
+            v.add(in9);
+
+            Enumeration<InputStream> es = v.elements();
+
+            merge(es, path.getPath());
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -76,7 +109,27 @@ public class FileDivisionMergeDemo {
     /**
      * 文件合并
      */
-    private static void merge(){
+    private static void merge(Enumeration<InputStream> es, String path){
+        //构造一个文件合并流
+        SequenceInputStream sis = new SequenceInputStream(es);
+        try {
+            BufferedOutputStream bos = new BufferedOutputStream(
+                    new FileOutputStream(path+ "/ALL-千锋Java.mp4"));
+
+            byte[] bytes = new byte[1024];
+            int len = -1;
+            while ((len = sis.read(bytes)) != -1){
+                bos.write(bytes, 0, len);
+                bos.flush();
+            }
+            bos.close();
+            sis.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
