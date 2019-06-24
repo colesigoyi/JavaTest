@@ -37,8 +37,6 @@ public class CompressionAndDecomprossionDemo {
             e.printStackTrace();
         }
         System.out.println("压缩完成");
-
-
     }
     //zip
     private static void zip(ZipOutputStream zOut, File targetFile, String name, BufferedOutputStream bos) {
@@ -70,8 +68,6 @@ public class CompressionAndDecomprossionDemo {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
         }
     }
 
@@ -103,12 +99,10 @@ public class CompressionAndDecomprossionDemo {
                 bos.close();
                 System.out.println(file.getAbsolutePath() + "  解压完成");
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
