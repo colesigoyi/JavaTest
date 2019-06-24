@@ -31,9 +31,9 @@ public class CopyFilelDemo {
     }
     private static void copyFile() throws Exception{
         //创建一个输入流文件的通道
-        FileChannel fcIn = new FileInputStream(path.getPath() + "/nio/computer.jpg").getChannel();
+        FileChannel fcIn = new FileInputStream(path.getPath() + "/computer.jpg").getChannel();
         //创建一个输出流文件的通道
-        FileChannel fcOut = new FileOutputStream(path.getPath() + "/nio/test/computer.jpg").getChannel();
+        FileChannel fcOut = new FileOutputStream(path.getPath() + "/test/computer.jpg").getChannel();
 
         ByteBuffer buf = ByteBuffer.allocate(1024);
 
@@ -47,8 +47,8 @@ public class CopyFilelDemo {
         System.out.println("copy success");
     }
     private static void randomAccessFileCopy() throws Exception{
-        RandomAccessFile in = new RandomAccessFile(path.getPath() + "/nio/computer.jpg","r");
-        RandomAccessFile out = new RandomAccessFile(path.getPath() + "/nio/test/computer2.jpg","rw");
+        RandomAccessFile in = new RandomAccessFile(path.getPath() + "/computer.jpg","r");
+        RandomAccessFile out = new RandomAccessFile(path.getPath() + "/test/computer2.jpg","rw");
 
         FileChannel fcIn = in.getChannel();
         FileChannel fcOut = out.getChannel();
