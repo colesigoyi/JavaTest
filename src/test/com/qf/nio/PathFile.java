@@ -11,6 +11,6 @@ public class PathFile {
     public static String getPath(){
         String path = null;
         return path = "/Users/taoxuefeng/Documents/02_学习文件/" +
-                "01_Java/java/java_study/src/test/com/qf";
+                "01_Java/java/java_study/src/test/com/qf/nio/";
     }
 }
