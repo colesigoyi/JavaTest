@@ -12,6 +12,11 @@ import java.nio.channels.FileChannel;
  * @ author:  TaoXueFeng
  * @ create: 2019-06-24 21:38
  * @ desc: NIO通道Channel：通过文件通道实现文件复制
+ *          比较IO操作的性能比较
+ *              1、内存映射最快
+ *              2、NIO读写文件
+ *              3、使用了缓存的IO流
+ *              4、无缓存的IO流
  **/
 
 public class CopyFilelDemo {
