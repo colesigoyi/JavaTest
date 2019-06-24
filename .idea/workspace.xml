@@ -4,16 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="压缩与解压文件">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/BlackBeanDecortaor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/EggDecorater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/SoyaBeanMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/SugerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/Decorator/Test.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="装饰者设计模式">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CodeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CompressionAndDecomprossionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CompressionAndDecomprossionDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Decorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="27" lean-forward="true" selection-end-line="25" selection-end-column="1" />
+              <caret line="13" column="27" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
@@ -120,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/SugerDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state>
+              <caret selection-end-line="24" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -137,8 +130,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CodeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -160,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/EggDecorater.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -204,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/MathAndRandom/MathDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/MathAndRandom/RandomDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/MathAndRandom/DateDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Comparable/Cat.java" />
@@ -255,6 +256,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/Decorator/BlackBeanDecortaor.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Decorator/EggDecorater.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Decorator/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CodeDemo.java" />
       </list>
     </option>
   </component>
@@ -334,7 +336,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="FileDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
@@ -363,7 +365,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561366501101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561368051419" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -401,7 +403,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.CodeDemo">
+    <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.CodeDemo" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.IO.FileDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompressionAndDecomprossionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.CompressionAndDecomprossionDemo" />
       <module name="java_test" />
@@ -417,19 +432,6 @@
     </configuration>
     <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.PropertiesDemo" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.IO.FileDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomAccessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.IO.FileDemo.RandomAccessFile" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -468,19 +470,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomAccessFile" />
       <item itemvalue="Application.RandomAccessFileDemo" />
       <item itemvalue="Application.PropertiesDemo" />
       <item itemvalue="Application.CompressionAndDecomprossionDemo" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.CodeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CompressionAndDecomprossionDemo" />
         <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.RandomAccessFileDemo" />
-        <item itemvalue="Application.RandomAccessFile" />
       </list>
     </recent_temporary>
   </component>
@@ -569,21 +571,7 @@
       <workItem from="1561314591631" duration="51000" />
       <workItem from="1561314759297" duration="2842000" />
       <workItem from="1561357760225" duration="6947000" />
-      <workItem from="1561364833156" duration="1450000" />
-    </task>
-    <task id="LOCAL-00096" summary="StringBuilder">
-      <created>1560757744133</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1560757744133</updated>
-    </task>
-    <task id="LOCAL-00097" summary="程序国际化">
-      <created>1560759661965</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1560759661965</updated>
+      <workItem from="1561364833156" duration="2536000" />
     </task>
     <task id="LOCAL-00098" summary="程序国际化">
       <created>1560766216997</created>
@@ -914,7 +902,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561364140432</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="压缩与解压文件">
+      <created>1561366521211</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1561366521212</updated>
+    </task>
+    <task id="LOCAL-00146" summary="装饰者设计模式">
+      <created>1561366541775</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1561366541775</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -950,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="555815000" />
+    <option name="totallyTimeSpent" value="556901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +974,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.25096524" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.25096524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49167928" visible="true" weight="0.15224719" />
@@ -1080,7 +1082,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="二叉树" />
     <MESSAGE value="Lambda表达式" />
     <MESSAGE value="update" />
     <MESSAGE value="File类" />
@@ -1105,20 +1106,14 @@
     <MESSAGE value="RandomAccessFile" />
     <MESSAGE value="Properties" />
     <MESSAGE value="压缩与解压文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="压缩与解压文件" />
+    <MESSAGE value="装饰者设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="装饰者设计模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test0613_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test0612_7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
@@ -1394,28 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/SugerDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Drink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1426,7 +1399,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Decorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-end-line="25" selection-end-column="1" />
+          <caret line="13" column="27" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
@@ -1478,6 +1451,35 @@
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/SugerDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CodeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
