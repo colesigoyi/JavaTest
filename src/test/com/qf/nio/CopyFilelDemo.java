@@ -2,21 +2,24 @@ package test.com.qf.nio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
+import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
  * @ program: java_study
  * @ author:  TaoXueFeng
  * @ create: 2019-06-24 21:38
- * @ desc: NIO通道Channel
+ * @ desc: NIO通道Channel：通过文件通道实现文件复制
  **/
 
 public class CopyFilelDemo {
     static PathFile path = new PathFile();
     public static void main(String[] args) {
         try {
-            copyFile();
+            //copyFile();
+            randomAccessFileCopy();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -36,6 +39,29 @@ public class CopyFilelDemo {
         }
         fcIn.close();
         fcOut.close();
+        System.out.println("copy success");
+    }
+    private static void randomAccessFileCopy() throws Exception{
+        RandomAccessFile in = new RandomAccessFile(path.getPath() + "/nio/computer.jpg","r");
+        RandomAccessFile out = new RandomAccessFile(path.getPath() + "/nio/test/computer2.jpg","rw");
+
+        FileChannel fcIn = in.getChannel();
+        FileChannel fcOut = out.getChannel();
+
+        long size = fcIn.size();//输入流的字节大小
+        //输入流的缓冲区
+        MappedByteBuffer inBuf = fcIn.map(FileChannel.MapMode.READ_ONLY, 0, size);
+        //输出流的缓冲区
+        MappedByteBuffer outBuf = fcOut.map(FileChannel.MapMode.READ_WRITE, 0, size);
+
+        for (int i=0; i<size; i++){
+            outBuf.put(inBuf.get());
+        }
+        //关闭通道时回写入数据块
+        fcIn.close();
+        fcOut.close();
+        in.close();
+        out.close();
         System.out.println("copy success");
     }
 }
