@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="set接口">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/CatComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFilesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="1037">
               <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,7 +74,19 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/ListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="131" column="1" lean-forward="true" selection-end-line="131" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,14 +95,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/CatComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-end-line="23" />
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,23 +110,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="571">
+              <caret line="75" lean-forward="true" selection-end-line="75" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#1320#1321#0" expanded="true" />
                 <element signature="e#1370#1371#0" expanded="true" />
               </folding>
@@ -148,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/CloneableDemo/Test.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/SystemRuntimeDemo/SystemRuntimeDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/BigNumberDemo/Test.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/MD5Demo/MD5Demo.java" />
@@ -198,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/nio/PathFilesDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/ListDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/Cat.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/CatComparator.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" />
       </list>
     </option>
@@ -245,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +325,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561610754924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561612372944" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -541,13 +542,7 @@
       <workItem from="1561314759297" duration="2842000" />
       <workItem from="1561357760225" duration="6947000" />
       <workItem from="1561364833156" duration="19532000" />
-    </task>
-    <task id="LOCAL-00111" summary="Lambda表达式">
-      <created>1560848407647</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1560848407647</updated>
+      <workItem from="1561610764697" duration="1988000" />
     </task>
     <task id="LOCAL-00112" summary="Lambda表达式">
       <created>1560850813661</created>
@@ -885,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561610710624</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="set接口">
+      <created>1561610916959</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1561610916959</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -921,7 +923,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573897000" />
+    <option name="totallyTimeSpent" value="575885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,6 +936,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -942,7 +945,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.1423462" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.14377682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -970,7 +973,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32928678" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.5210843" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" weight="0.27539343" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.27539343" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1082,9 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test0608_4.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test190529.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1394,13 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1444,26 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFilesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1313">
@@ -1471,39 +1444,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFilesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/ListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-end-line="23" />
+        <state relative-caret-position="540">
+          <caret line="131" column="1" lean-forward="true" selection-end-line="131" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="75" lean-forward="true" selection-end-line="75" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/CatComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>

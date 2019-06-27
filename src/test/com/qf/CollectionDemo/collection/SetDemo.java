@@ -1,7 +1,9 @@
 package test.com.qf.CollectionDemo.collection;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @ program: java_study
@@ -11,11 +13,17 @@ import java.util.Set;
  *            1、无序（不保证顺序）
  *            2、不允许重复元素
  *         HashSet、TreeSet、LinkedHashSet
+ *
+ *         如果要排序，选择TreeSet
+ *         如果不要排序，也不用保证顺序：就选择HashSet
+ *         不要排序，要保证顺序：选择LinkedHashSet
  **/
 
 public class SetDemo {
     public static void main(String[] args) {
         hashSet();
+        treeSet();
+        linkedHashSet();
     }
 
     /**
@@ -75,15 +83,50 @@ public class SetDemo {
 
     /**
      *TreeSet
+     * 有序的，基于TreeMap（二叉树数据结构）,对象需要比较大小，通过对象比较器Comparator来实现
+     * 对象比较器还可以用来去除重复元素,如果自定义的数据类没有实现比较器接口，将无法添加到TreeSet集合中。
+     *
      */
     private static void treeSet(){
+        TreeSet<Cat> tree = new TreeSet<>(new CatComparator());//加入CatComparator比较器
 
+        Cat c1 = new Cat("喵喵",5,1);
+        Cat c2 = new Cat("花花",2,2);
+        Cat c3 = new Cat("汤姆",5,3);
+        Cat c4 = new Cat("喵喵",3,1);//c1与c4属性值相同
+
+        tree.add(c1);
+        tree.add(c2);
+        tree.add(c3);
+        tree.add(c4);
+
+        System.out.println(tree.size());//2 age=5的当成同一个
+
+        for (Cat c: tree){
+            System.out.println(c);
+        }
+        System.out.println("---------------------");
     }
 
     /**
-     *LinkedHashSet
+     *LinkedHashSet:
+     * 实现原理：哈希表和链接列表实现
+     * 维护着一个运行与所有条目的双重链接列表，此链接列表定义了迭代顺序，即按照将元素插入到set中的顺序（插入顺序）进行迭代
      */
     private static void linkedHashSet(){
+        LinkedHashSet<Cat> lhs = new LinkedHashSet<>();
+        Cat c1 = new Cat("喵喵",5,1);
+        Cat c2 = new Cat("花花",2,2);
+        Cat c3 = new Cat("汤姆",5,3);
+        Cat c4 = new Cat("喵喵",3,1);//c1与c4属性值相同
+        lhs.add(c1);
+        lhs.add(c2);
+        lhs.add(c3);
+        lhs.add(c4);
+
+        for (Cat c:lhs){
+            System.out.println(c);
+        }
 
     }
 }
