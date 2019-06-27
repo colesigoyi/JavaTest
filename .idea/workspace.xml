@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="List">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="set接口">
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
@@ -334,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561610389917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561610754924" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -442,10 +440,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.CopyFilelDemo" />
-      <item itemvalue="JUnit.test.com.qf.nio.test in java_test" />
       <item itemvalue="Application.PathFilesDemo" />
       <item itemvalue="Application.ListDemo" />
       <item itemvalue="Application.SetDemo" />
+      <item itemvalue="JUnit.test.com.qf.nio.test in java_test" />
     </list>
     <recent_temporary>
       <list>
@@ -542,14 +540,7 @@
       <workItem from="1561314591631" duration="51000" />
       <workItem from="1561314759297" duration="2842000" />
       <workItem from="1561357760225" duration="6947000" />
-      <workItem from="1561364833156" duration="19472000" />
-    </task>
-    <task id="LOCAL-00110" summary="二叉树">
-      <created>1560848394122</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1560848394122</updated>
+      <workItem from="1561364833156" duration="19532000" />
     </task>
     <task id="LOCAL-00111" summary="Lambda表达式">
       <created>1560848407647</created>
@@ -887,7 +878,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561606431093</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="set接口">
+      <created>1561610710624</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1561610710624</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -923,7 +921,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573837000" />
+    <option name="totallyTimeSpent" value="573897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,7 +934,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -973,7 +970,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32928678" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.5210843" />
-      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.27539343" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" weight="0.27539343" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1053,7 +1050,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="字符流" />
     <MESSAGE value="复制文件" />
     <MESSAGE value="字节流" />
     <MESSAGE value="字节流与字符流转换" />
@@ -1078,7 +1074,8 @@
     <MESSAGE value="Path" />
     <MESSAGE value="NIO：Path、Files" />
     <MESSAGE value="List" />
-    <option name="LAST_COMMIT_MESSAGE" value="List" />
+    <MESSAGE value="set接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="set接口" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1501,8 +1498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
