@@ -5,6 +5,7 @@ package test.com.qf.ThreadDemo;
  * @ author:  TaoXueFeng
  * @ create: 2019-06-28 15:05
  * @ desc: 线程与进程
+ *         线程的休眠：在当前线程的执行中，暂停指定的毫秒数，释放CPU的时间片
  **/
 
 public class threadDemo1 {
@@ -28,6 +29,11 @@ class MyThread extends Thread{
     public void run() {
         for (int i=0; i<50; i++){
             System.out.println(Thread.currentThread().getName() + "-" + i);
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
@@ -40,6 +46,11 @@ class MyRunnable implements Runnable{
     public void run() {
         for (int i=0; i<50; i++){
             System.out.println(Thread.currentThread().getName() + "-" + i);
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
