@@ -13,6 +13,7 @@ public class threadDemo1 {
         mt.start();//启动线程，准备就绪的意思
 
         //推荐使用方式
+        //实现接口更加灵活，继承更方便
         MyRunnable mr = new MyRunnable();
         Thread t2 = new Thread(mr);
         t2.start();

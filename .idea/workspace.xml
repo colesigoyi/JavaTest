@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="迭代器">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="Thread">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="163">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -562,14 +562,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="598000" />
-    </task>
-    <task id="LOCAL-00115" summary="File类:查找文件">
-      <created>1560868211418</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1560868211418</updated>
+      <workItem from="1561706601513" duration="910000" />
     </task>
     <task id="LOCAL-00116" summary="字节输入与输出">
       <created>1560870546183</created>
@@ -907,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561703520231</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Thread">
+      <created>1561707440352</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1561707440353</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -943,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="582094000" />
+    <option name="totallyTimeSpent" value="582406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,7 +993,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.22889842" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.22317597" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1073,7 +1073,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="字节流" />
     <MESSAGE value="字节流与字符流转换" />
     <MESSAGE value="工具类" />
     <MESSAGE value="字节缓冲流" />
@@ -1098,7 +1097,8 @@
     <MESSAGE value="List" />
     <MESSAGE value="set接口" />
     <MESSAGE value="迭代器" />
-    <option name="LAST_COMMIT_MESSAGE" value="迭代器" />
+    <MESSAGE value="Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1516,8 +1516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="163">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
