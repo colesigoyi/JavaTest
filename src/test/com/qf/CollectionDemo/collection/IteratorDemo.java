@@ -26,6 +26,8 @@ public class IteratorDemo {
         iterator(list);
         System.out.println("--------------------------");
         enumeration();
+        System.out.println("--------------------------");
+        foreach();
 
     }
 
@@ -55,6 +57,20 @@ public class IteratorDemo {
         while (enu.hasMoreElements()){
             System.out.println(enu.nextElement());
         }
+    }
 
+    /**
+     * JDK1.8新的迭代方法
+     */
+    private static void foreach(){
+        List<String> list = new ArrayList<>();
+        list.add("tom");
+        list.add("jack");
+        list.add("nancy");
+        list.add("lily");
+
+        //list.forEach((String s)->{System.out.println(s);});
+        list.forEach(s->System.out.println(s));
+        //list.forEach(System.out::println);//::表示调用方法
     }
 }

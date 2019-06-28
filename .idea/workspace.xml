@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="set接口">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="迭代器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -341,7 +341,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/taoxuefeng/java/java_test/src/day0501/Demo/exercise/atm/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561702434217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561703160974" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -549,14 +549,7 @@
       <workItem from="1561314759297" duration="2842000" />
       <workItem from="1561357760225" duration="6947000" />
       <workItem from="1561364833156" duration="19532000" />
-      <workItem from="1561610764697" duration="4188000" />
-    </task>
-    <task id="LOCAL-00113" summary="update">
-      <created>1560851201530</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1560851201530</updated>
+      <workItem from="1561610764697" duration="5222000" />
     </task>
     <task id="LOCAL-00114" summary="File类">
       <created>1560854988144</created>
@@ -894,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561613963915</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="迭代器">
+      <created>1561702518552</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1561702518552</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -930,7 +930,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="578085000" />
+    <option name="totallyTimeSpent" value="579119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,7 +1060,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="复制文件" />
     <MESSAGE value="字节流" />
     <MESSAGE value="字节流与字符流转换" />
     <MESSAGE value="工具类" />
@@ -1085,7 +1084,8 @@
     <MESSAGE value="NIO：Path、Files" />
     <MESSAGE value="List" />
     <MESSAGE value="set接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="set接口" />
+    <MESSAGE value="迭代器" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代器" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1508,7 +1508,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
