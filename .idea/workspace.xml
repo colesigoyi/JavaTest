@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="Thread">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,11 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/BinaryTree/BinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/BinaryTree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Lambda/Student.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Lambda/LambdaDemo.java" />
@@ -216,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" />
       </list>
     </option>
   </component>
@@ -562,21 +571,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="910000" />
-    </task>
-    <task id="LOCAL-00116" summary="字节输入与输出">
-      <created>1560870546183</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1560870546183</updated>
-    </task>
-    <task id="LOCAL-00117" summary="字节输入与输出">
-      <created>1560870798089</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1560870798089</updated>
+      <workItem from="1561706601513" duration="2582000" />
     </task>
     <task id="LOCAL-00118" summary="File">
       <created>1560870853030</created>
@@ -907,7 +902,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561707440353</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Thread">
+      <created>1561707546516</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1561707546516</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Thread">
+      <created>1561708404032</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1561708404032</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -943,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="582406000" />
+    <option name="totallyTimeSpent" value="584078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,7 +974,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.1525788" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15236051" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -993,7 +1002,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.22317597" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.22317597" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1105,13 +1114,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/newTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1516,8 +1518,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
