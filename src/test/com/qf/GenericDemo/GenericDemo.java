@@ -2,9 +2,7 @@ package test.com.qf.GenericDemo;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ program: java_study
@@ -97,5 +95,16 @@ public class GenericDemo {
         String[] arrays = {"a","b","c","d"};
         String[] strs = func(arrays, 0, 1);
         System.out.println(Arrays.toString(strs));
+    }
+    @Test
+    public void test5(){
+        Map<Integer, String > map = new HashMap<>();
+        map.put(1, "aaa");
+        map.put(2, "bbb");
+
+        Set<Map.Entry<Integer,String>> entrySet = map.entrySet();
+        for(Map.Entry entry: entrySet){
+            System.out.println(entry.getKey() + "-" + entry.getValue());
+        }
     }
 }
