@@ -1,5 +1,7 @@
 package test.com.qf.ThreadDemo;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @ program: java_study
  * @ author:  TaoXueFeng
@@ -29,19 +31,48 @@ class MyRunable5 implements Runnable{
     public void run() {
         for (int i=0; i<300; i++){
             if(ticket > 0){
-                synchronized (this) {//同步代码块
-                    ticket--;
-                    if(ticket<0){
-                        break;
-                    }
-                    System.out.println(Thread.currentThread().getName() +"--您购买的票剩余:" + ticket + "张票");
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                //synchronized (this) {//同步代码块
+                    //ticket--;
+                    //if(ticket<0){
+                    //    break;
+                    //}
+                    //try {
+                    //    Thread.sleep(1000);
+                    //} catch (InterruptedException e) {
+                    //    e.printStackTrace();
+                    //}
+                    //System.out.println(Thread.currentThread().getName() +"--您购买的票剩余:" + ticket + "张票");
+
                 }
+            method();
             }
         }
+    //同步方法:同步的对象是当前对象
+    private synchronized void method(){
+        ticket--;
+        if(ticket>=0){
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() +"--您购买的票剩余:" + ticket + "张票");
+        }
+    }
+    //互斥锁
+    ReentrantLock lock = new ReentrantLock();
+    //lock实现同步,更加灵活
+    private void method2(){
+        lock.lock();//锁
+        ticket--;
+        if(ticket>=0){
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() +"--您购买的票剩余:" + ticket + "张票");
+        }
+        lock.unlock();//释放锁
     }
 }
