@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,15 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/nio/PathFilesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,11 +118,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -187,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/Lambda/Student.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/Lambda/LambdaDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/API/StringDemo/StringBufferDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt" />
@@ -238,6 +237,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo3.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java" />
       </list>
     </option>
   </component>
@@ -411,22 +411,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo3">
+  <component name="RunManager" selected="Application.ThreadDemo4">
     <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.CollectionDemo.collection.IteratorDemo" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.CollectionDemo.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.CollectionDemo.collection.SetDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -464,6 +451,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.ThreadDemo4" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.ThreadDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="threadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.threadDemo1" />
       <module name="java_test" />
@@ -478,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SetDemo" />
       <item itemvalue="Application.IteratorDemo" />
       <item itemvalue="Application.threadDemo1" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ThreadDemo3" />
+      <item itemvalue="Application.ThreadDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo4" />
         <item itemvalue="Application.ThreadDemo3" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.threadDemo1" />
         <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.SetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -584,14 +584,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="4686000" />
-    </task>
-    <task id="LOCAL-00120" summary="复制文件">
-      <created>1560938410586</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1560938410586</updated>
+      <workItem from="1561706601513" duration="6530000" />
     </task>
     <task id="LOCAL-00121" summary="字节流">
       <created>1560938442593</created>
@@ -929,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561772194399</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Thread">
+      <created>1561773238222</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1561773238222</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -965,7 +965,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="586182000" />
+    <option name="totallyTimeSpent" value="588026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -996,7 +996,7 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3263889" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50832075" side_tool="true" weight="0.2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286517" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24157304" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24027778" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3263158" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" weight="0.3276316" />
@@ -1127,13 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CharStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -1546,8 +1539,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
