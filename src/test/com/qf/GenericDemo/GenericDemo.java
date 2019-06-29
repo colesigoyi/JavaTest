@@ -9,7 +9,7 @@ import java.util.List;
  * @ program: java_study
  * @ author:  TaoXueFeng
  * @ create: 2019-06-29 22:51
- * @ desc: 泛型
+ * @ desc: 泛型只作用于编译期检查，在编译后，会被擦除
  **/
 
 public class GenericDemo {
@@ -29,7 +29,12 @@ public class GenericDemo {
     }
     @Test
     public void testNode(){
-        NodeDemo<Number> numberNode = new NodeDemo<>();
-        NodeDemo<Integer> intNode = new NodeDemo<>();
+        NodeDemo<String> stringNode = new NodeDemo<>("txf");
+        NodeDemo<Integer> intNode = new NodeDemo<>(100);
+
+        System.out.println(stringNode.getData());
+        System.out.println(intNode.getData());
+
+
     }
 }
