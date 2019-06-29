@@ -27,4 +27,9 @@ public class GenericDemo {
             System.out.println(s);
         }
     }
+    @Test
+    public void testNode(){
+        NodeDemo<Number> numberNode = new NodeDemo<>();
+        NodeDemo<Integer> intNode = new NodeDemo<>();
+    }
 }
