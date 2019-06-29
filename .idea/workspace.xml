@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="泛型、通配符">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="正则表达式">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
@@ -130,16 +130,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1166#1167#0" expanded="true" />
                 <element signature="e#1187#1188#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -197,8 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/BufferStreamDeam.java" />
-        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PrintStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ObjectStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/ByteArrayStreamDemo.java" />
@@ -248,6 +267,8 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/SocketDemo/communication/Server.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/GenericDemo/NodeDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java" />
       </list>
     </option>
   </component>
@@ -336,7 +357,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="RegexDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
@@ -430,39 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenericDemo.test5">
-    <configuration name="GenericDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.GenericDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.qf.GenericDemo" />
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.GenericDemo.GenericDemo" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericDemo.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.GenericDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.qf.GenericDemo" />
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.GenericDemo.GenericDemo" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegexDemo2.test">
     <configuration name="GenericDemo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_test" />
       <extension name="coverage">
@@ -479,52 +468,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericDemo.testNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegexDemo2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.qf.GenericDemo.*" />
+          <option name="PATTERN" value="test.com.qf.RegexDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.qf.GenericDemo" />
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.GenericDemo.GenericDemo" />
-      <option name="METHOD_NAME" value="testNode" />
+      <option name="PACKAGE_NAME" value="test.com.qf.RegexDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.RegexDemo.RegexDemo2" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericDemo.wildcardDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegexDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.qf.GenericDemo.*" />
+          <option name="PATTERN" value="test.com.qf.RegexDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.qf.GenericDemo" />
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.GenericDemo.GenericDemo" />
-      <option name="METHOD_NAME" value="wildcardDemo" />
+      <option name="PACKAGE_NAME" value="test.com.qf.RegexDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.RegexDemo.RegexDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.RegexDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.qf.RegexDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.RegexDemo.RegexDemo" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexDemo.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.RegexDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.qf.RegexDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.RegexDemo.RegexDemo" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GenericDemo.test1" />
-      <item itemvalue="JUnit.GenericDemo.testNode" />
-      <item itemvalue="JUnit.GenericDemo.wildcardDemo" />
-      <item itemvalue="JUnit.GenericDemo.test4" />
       <item itemvalue="JUnit.GenericDemo.test5" />
+      <item itemvalue="JUnit.RegexDemo.test1" />
+      <item itemvalue="JUnit.RegexDemo.test2" />
+      <item itemvalue="JUnit.RegexDemo.test3" />
+      <item itemvalue="JUnit.RegexDemo2.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegexDemo2.test" />
+        <item itemvalue="JUnit.RegexDemo.test3" />
+        <item itemvalue="JUnit.RegexDemo.test2" />
+        <item itemvalue="JUnit.RegexDemo.test1" />
         <item itemvalue="JUnit.GenericDemo.test5" />
-        <item itemvalue="JUnit.GenericDemo.test4" />
-        <item itemvalue="JUnit.GenericDemo.wildcardDemo" />
-        <item itemvalue="JUnit.GenericDemo.testNode" />
-        <item itemvalue="JUnit.GenericDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -618,21 +639,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="27717000" />
-    </task>
-    <task id="LOCAL-00137" summary="文件分割与合并">
-      <created>1561094333512</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1561094333513</updated>
-    </task>
-    <task id="LOCAL-00138" summary="字符串流">
-      <created>1561094977865</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1561094977865</updated>
+      <workItem from="1561706601513" duration="29592000" />
     </task>
     <task id="LOCAL-00139" summary="字符串流">
       <created>1561159882664</created>
@@ -963,43 +970,57 @@
       <option name="project" value="LOCAL" />
       <updated>1561827705502</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="泛型、通配符">
+      <created>1561828004326</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1561828004326</updated>
+    </task>
+    <task id="LOCAL-00187" summary="正则表达式">
+      <created>1561829647816</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1561829647816</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StaticTest - 2018.12.03 at 18h 11m 24s.xml">
-      <configuration name="StaticTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticTest_method_2 - 2018.12.03 at 18h 11m 47s.xml">
-      <configuration name="StaticTest.method_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_com_qf_nio_test_in_java_test - 2019.06.24 at 21h 51m 14s.xml">
-      <configuration name="test.com.qf.nio.test in java_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_test1 - 2019.06.29 at 22h 59m 04s.xml">
-      <configuration name="GenericDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_testNode - 2019.06.29 at 23h 12m 05s.xml">
-      <configuration name="GenericDemo.testNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_wildcardDemo - 2019.06.29 at 23h 19m 42s.xml">
-      <configuration name="GenericDemo.wildcardDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_wildcardDemo - 2019.06.29 at 23h 22m 19s.xml">
-      <configuration name="GenericDemo.wildcardDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_test4 - 2019.06.29 at 23h 35m 29s.xml">
-      <configuration name="GenericDemo.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_test4 - 2019.06.29 at 23h 36m 31s.xml">
-      <configuration name="GenericDemo.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GenericDemo_test4 - 2019.06.29 at 23h 38m 08s.xml">
       <configuration name="GenericDemo.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GenericDemo_test5 - 2019.06.30 at 01h 05m 15s.xml">
+      <configuration name="GenericDemo.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 19s.xml">
+      <configuration name="RegexDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 35s.xml">
+      <configuration name="RegexDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 53s.xml">
+      <configuration name="RegexDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test2 - 2019.06.30 at 01h 19m 02s.xml">
+      <configuration name="RegexDemo.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test2 - 2019.06.30 at 01h 19m 37s.xml">
+      <configuration name="RegexDemo.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test3 - 2019.06.30 at 01h 33m 07s.xml">
+      <configuration name="RegexDemo.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test3 - 2019.06.30 at 01h 33m 27s.xml">
+      <configuration name="RegexDemo.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo_test3 - 2019.06.30 at 01h 33m 55s.xml">
+      <configuration name="RegexDemo.test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609213000" />
+    <option name="totallyTimeSpent" value="611088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,7 +1042,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" weight="0.15627293" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15627293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -1049,7 +1070,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.34409392" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.20176083" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1129,7 +1150,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="文件分割与合并" />
     <MESSAGE value="字符串流" />
     <MESSAGE value="管道流" />
     <MESSAGE value="RandomAccessFile" />
@@ -1154,27 +1174,14 @@
     <MESSAGE value="网络编程" />
     <MESSAGE value="泛型" />
     <MESSAGE value="泛型、通配符" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型、通配符" />
+    <MESSAGE value="正则表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则表达式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PipedStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PrintStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1608,13 +1615,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1166#1167#0" expanded="true" />
             <element signature="e#1187#1188#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
         </state>
       </provider>
     </entry>
