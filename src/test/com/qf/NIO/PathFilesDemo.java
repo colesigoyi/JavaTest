@@ -1,4 +1,4 @@
-package test.com.qf.nio;
+package test.com.qf.NIO;
 
 import java.io.File;
 import java.io.IOException;
