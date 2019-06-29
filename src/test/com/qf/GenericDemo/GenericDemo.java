@@ -3,6 +3,7 @@ package test.com.qf.GenericDemo;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -73,5 +74,28 @@ public class GenericDemo {
     public static void getData4(NodeDemo<? super Integer> node){//?表示所有类型
         //只能是具体的类或者是父类
         System.out.println(node.getData());
+    }
+
+    /**
+     * 泛型方法
+     * 交换位置
+     * @param array
+     * @param i
+     * @param t
+     * @param <T>：泛型
+     *        T[]：返回类型
+     * @return
+     */
+    public static <T> T[] func(T[] array, int i, int t){
+        T temp = array[i];
+        array[i] = array[t];
+        array[t] = temp;
+        return array;
+    }
+    @Test
+    public void test4(){
+        String[] arrays = {"a","b","c","d"};
+        String[] strs = func(arrays, 0, 1);
+        System.out.println(Arrays.toString(strs));
     }
 }
