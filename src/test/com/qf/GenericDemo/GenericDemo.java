@@ -15,14 +15,16 @@ import java.util.List;
 public class GenericDemo {
     @Test
     public void test1(){
-        List list = new ArrayList();
+        List<String> list = new ArrayList<>();//...=new ArrayList() //...=new ArrayList<String>();
         list.add("txf");
-        list.add(10);
-        list.add(new Object());
+        list.add("123");
+        //list.add(10);
+        //list.add(new Object());
 
         for (int i=0; i<list.size(); i++){
             //如果我们不能确定集合中的元素类型，那么我们需要在处里元素时要判断元素的类型是什么，才能执行相应的操作
-
+            String s = list.get(i);
+            System.out.println(s);
         }
     }
 }
