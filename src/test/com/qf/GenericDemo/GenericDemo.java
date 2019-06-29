@@ -41,10 +41,14 @@ public class GenericDemo {
         NodeDemo<Number> n1 = new NodeDemo<>(1);
         NodeDemo<Integer> n2 = new NodeDemo<>(2);
 
-        //getData1(n1);
+        getData1(n1);
         //getData1(n2);//n2为Integer，与下面的Number不同,n1=n2不支持
 
         getData2(n2);
+
+        getData3(n2);
+
+        getData4(n2);
     }
 
     public static void getData1(NodeDemo<Number> node){
@@ -57,6 +61,17 @@ public class GenericDemo {
      */
     public static void getData2(NodeDemo<?> node){//?表示所有类型
         //node.setData(20);//无法设值
+        System.out.println(node.getData());
+    }
+    //通配符上限
+    public static void getData3(NodeDemo<? extends Number> node){//?表示所有类型
+        //只能是Number的子类
+        //node.setData(20);//无法设值
+        System.out.println(node.getData());
+    }
+    //通配符下限
+    public static void getData4(NodeDemo<? super Integer> node){//?表示所有类型
+        //只能是具体的类或者是父类
         System.out.println(node.getData());
     }
 }

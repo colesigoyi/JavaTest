@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="泛型">
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="泛型、通配符">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java" afterDir="false" />
     </list>
@@ -133,10 +133,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="529">
+              <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/NodeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -428,20 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenericDemo.testNode">
-    <configuration name="EchoClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.SocketDemo.EchoClientDemo" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.SocketDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GenericDemo.wildcardDemo">
     <configuration name="MutilClientDemo" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.SocketDemo.MutilClientDemo" />
       <module name="java_test" />
@@ -500,20 +489,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericDemo.wildcardDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.GenericDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.qf.GenericDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.GenericDemo.GenericDemo" />
+      <option name="METHOD_NAME" value="wildcardDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EchoClientDemo" />
       <item itemvalue="Application.MutilServerDemo" />
       <item itemvalue="Application.MutilClientDemo" />
       <item itemvalue="JUnit.GenericDemo.test1" />
       <item itemvalue="JUnit.GenericDemo.testNode" />
+      <item itemvalue="JUnit.GenericDemo.wildcardDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericDemo.wildcardDemo" />
         <item itemvalue="JUnit.GenericDemo.testNode" />
         <item itemvalue="JUnit.GenericDemo.test1" />
         <item itemvalue="Application.MutilClientDemo" />
         <item itemvalue="Application.MutilServerDemo" />
-        <item itemvalue="Application.EchoClientDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -607,21 +612,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="25231000" />
-    </task>
-    <task id="LOCAL-00133" summary="数据流">
-      <created>1561048590913</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1561048590913</updated>
-    </task>
-    <task id="LOCAL-00134" summary="文件分割与合并">
-      <created>1561049311491</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1561049311491</updated>
+      <workItem from="1561706601513" duration="26126000" />
     </task>
     <task id="LOCAL-00135" summary="对象流">
       <created>1561049331160</created>
@@ -952,19 +943,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561820861211</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="泛型">
+      <created>1561821322084</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821322084</updated>
+    </task>
+    <task id="LOCAL-00183" summary="泛型、通配符">
+      <created>1561821840436</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821840436</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo06_getTime02 - 2018.09.29 at 19h 27m 26s.xml">
-      <configuration name="Demo06.getTime02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticTest_method_2 - 2018.12.03 at 18h 07m 01s.xml">
-      <configuration name="StaticTest.method_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticTest_method_2 - 2018.12.03 at 18h 07m 34s.xml">
-      <configuration name="StaticTest.method_2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StaticTest_method_3 - 2018.12.03 at 18h 08m 35s.xml">
       <configuration name="StaticTest.method_3" configurationId="JUnit" />
     </history-entry>
@@ -986,9 +982,18 @@
     <history-entry file="GenericDemo_test1 - 2019.06.29 at 22h 59m 04s.xml">
       <configuration name="GenericDemo.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GenericDemo_testNode - 2019.06.29 at 23h 12m 05s.xml">
+      <configuration name="GenericDemo.testNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDemo_wildcardDemo - 2019.06.29 at 23h 19m 42s.xml">
+      <configuration name="GenericDemo.wildcardDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDemo_wildcardDemo - 2019.06.29 at 23h 22m 19s.xml">
+      <configuration name="GenericDemo.wildcardDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="606727000" />
+    <option name="totallyTimeSpent" value="607622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1010,7 +1015,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15627293" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15627293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -1038,7 +1043,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.20909758" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.20909758" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1118,7 +1123,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="文件分割" />
     <MESSAGE value="文件分割与合并" />
     <MESSAGE value="字符串流" />
     <MESSAGE value="管道流" />
@@ -1143,7 +1147,8 @@
     <MESSAGE value="ECHO" />
     <MESSAGE value="网络编程" />
     <MESSAGE value="泛型" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型" />
+    <MESSAGE value="泛型、通配符" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型、通配符" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1583,7 +1588,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/NodeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
@@ -1597,10 +1602,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/GenericDemo/GenericDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="529">
+          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
           </folding>
         </state>
       </provider>
