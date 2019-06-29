@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -117,8 +117,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="206">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -398,7 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.threadDemo1">
+  <component name="RunManager" selected="Application.ThreadDemo2">
     <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.CollectionDemo.collection.IteratorDemo" />
       <module name="java_test" />
@@ -425,12 +429,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.nio.PathFilesDemo" />
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.CollectionDemo.collection.SetDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.qf.nio.*" />
+          <option name="PATTERN" value="test.com.qf.CollectionDemo.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,12 +442,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.CollectionDemo.collection.SetDemo" />
+    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.ThreadDemo2" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.qf.CollectionDemo.collection.*" />
+          <option name="PATTERN" value="test.com.qf.ThreadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,19 +469,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PathFilesDemo" />
       <item itemvalue="Application.ListDemo" />
       <item itemvalue="Application.SetDemo" />
       <item itemvalue="Application.IteratorDemo" />
       <item itemvalue="Application.threadDemo1" />
+      <item itemvalue="Application.ThreadDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.threadDemo1" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.PathFilesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -571,14 +575,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="2582000" />
-    </task>
-    <task id="LOCAL-00118" summary="File">
-      <created>1560870853030</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1560870853030</updated>
+      <workItem from="1561706601513" duration="3571000" />
     </task>
     <task id="LOCAL-00119" summary="字符流">
       <created>1560938391976</created>
@@ -916,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561708404032</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Thread">
+      <created>1561744628514</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1561744628514</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -952,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584078000" />
+    <option name="totallyTimeSpent" value="585067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,7 +978,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15236051" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15236051" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -1002,7 +1006,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.22317597" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.22317597" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1519,14 +1523,18 @@
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="206">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
