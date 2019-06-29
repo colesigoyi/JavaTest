@@ -34,7 +34,29 @@ public class GenericDemo {
 
         System.out.println(stringNode.getData());
         System.out.println(intNode.getData());
+    }
+    //通配符
+    @Test
+    public void wildcardDemo(){
+        NodeDemo<Number> n1 = new NodeDemo<>(1);
+        NodeDemo<Integer> n2 = new NodeDemo<>(2);
 
+        //getData1(n1);
+        //getData1(n2);//n2为Integer，与下面的Number不同,n1=n2不支持
 
+        getData2(n2);
+    }
+
+    public static void getData1(NodeDemo<Number> node){
+        System.out.println(node.getData());
+    }
+
+    /**
+     * 使用通配符定义泛型的类型，此时只能读取输出，不能修改
+     * @param node
+     */
+    public static void getData2(NodeDemo<?> node){//?表示所有类型
+        //node.setData(20);//无法设值
+        System.out.println(node.getData());
     }
 }
