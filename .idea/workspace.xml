@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="Thread锁">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/DeadThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ProducterCustomerDemo.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="生产者与消费者案例">
+      <change afterPath="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,18 +52,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/SetDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="120" column="35" selection-start-line="117" selection-start-column="8" selection-end-line="120" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/CollectionDemo/collection/IteratorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -85,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="603">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="42" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <element signature="e#1616#1617#0" expanded="true" />
                 <element signature="e#1643#1644#0" expanded="true" />
@@ -107,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="1000">
               <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
             </state>
           </provider>
@@ -128,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ProducterCustomerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
+            <state relative-caret-position="286">
+              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
               <folding>
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
@@ -144,6 +131,18 @@
                 <element signature="e#2825#2826#0" expanded="true" />
                 <element signature="e#2883#2884#0" expanded="true" />
                 <element signature="e#2955#2956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Test.txt" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/FileDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/FileDemo2.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/newTest.txt" />
@@ -251,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/DeadThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ProducterCustomerDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo5.java" />
       </list>
     </option>
   </component>
@@ -424,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducterCustomerDemo">
+  <component name="RunManager" selected="Application.ThreadDemo5">
     <configuration name="DeadThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.DeadThreadDemo" />
       <module name="java_test" />
@@ -440,19 +439,6 @@
     </configuration>
     <configuration name="ProducterCustomerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.ProducterCustomerDemo" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.ThreadDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.ThreadDemo2" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
@@ -490,20 +476,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.ThreadDemo.ThreadDemo5" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.ThreadDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ThreadDemo3" />
       <item itemvalue="Application.ThreadDemo4" />
       <item itemvalue="Application.DeadThreadDemo" />
       <item itemvalue="Application.ProducterCustomerDemo" />
+      <item itemvalue="Application.ThreadDemo5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo5" />
         <item itemvalue="Application.ProducterCustomerDemo" />
         <item itemvalue="Application.DeadThreadDemo" />
         <item itemvalue="Application.ThreadDemo4" />
         <item itemvalue="Application.ThreadDemo3" />
-        <item itemvalue="Application.ThreadDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -597,21 +596,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="15248000" />
-    </task>
-    <task id="LOCAL-00124" summary="字节缓冲流">
-      <created>1560955872234</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1560955872234</updated>
-    </task>
-    <task id="LOCAL-00125" summary="字节缓冲流">
-      <created>1561004589519</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1561004589519</updated>
+      <workItem from="1561706601513" duration="16916000" />
     </task>
     <task id="LOCAL-00126" summary="缓冲流">
       <created>1561009351530</created>
@@ -942,7 +927,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561785752985</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="死锁">
+      <created>1561798159299</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1561798159299</updated>
+    </task>
+    <task id="LOCAL-00174" summary="生产者与消费者案例">
+      <created>1561798174594</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1561798174594</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -978,7 +977,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="596744000" />
+    <option name="totallyTimeSpent" value="598412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,7 +990,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" weight="0.24725275" />
       <window_info id="Capture Tool" order="1" />
@@ -1000,7 +998,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15236051" />
+      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15236051" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -1028,7 +1026,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.22317597" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.22317597" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1108,8 +1106,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="工具类" />
-    <MESSAGE value="字节缓冲流" />
     <MESSAGE value="缓冲流" />
     <MESSAGE value="打印流" />
     <MESSAGE value="字节数组流" />
@@ -1133,34 +1129,15 @@
     <MESSAGE value="迭代器" />
     <MESSAGE value="Thread" />
     <MESSAGE value="Thread锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread锁" />
+    <MESSAGE value="死锁" />
+    <MESSAGE value="生产者与消费者案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="生产者与消费者案例" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="68" selection-end-column="1" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/test.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1515,35 +1492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1562,8 +1514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ProducterCustomerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
+        <state relative-caret-position="286">
+          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#341#342#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
@@ -1575,6 +1527,41 @@
             <element signature="e#2825#2826#0" expanded="true" />
             <element signature="e#2883#2884#0" expanded="true" />
             <element signature="e#2955#2956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/threadDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="42" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ThreadDemo/ThreadDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
