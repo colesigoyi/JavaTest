@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="正则表达式">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="正则表达式" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/2.txt" />
@@ -144,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="237">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+            <state relative-caret-position="136">
+              <caret line="8" column="15" lean-forward="true" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -639,14 +636,7 @@
       <workItem from="1561704009738" duration="712000" />
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
-      <workItem from="1561706601513" duration="29592000" />
-    </task>
-    <task id="LOCAL-00139" summary="字符串流">
-      <created>1561159882664</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1561159882664</updated>
+      <workItem from="1561706601513" duration="31468000" />
     </task>
     <task id="LOCAL-00140" summary="管道流">
       <created>1561313682882</created>
@@ -984,22 +974,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561829647816</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="正则表达式">
+      <created>1561830213176</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1561830213176</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenericDemo_test4 - 2019.06.29 at 23h 38m 08s.xml">
-      <configuration name="GenericDemo.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDemo_test5 - 2019.06.30 at 01h 05m 15s.xml">
-      <configuration name="GenericDemo.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 19s.xml">
-      <configuration name="RegexDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 35s.xml">
-      <configuration name="RegexDemo.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegexDemo_test1 - 2019.06.30 at 01h 12m 53s.xml">
       <configuration name="RegexDemo.test1" configurationId="JUnit" />
     </history-entry>
@@ -1018,9 +1003,21 @@
     <history-entry file="RegexDemo_test3 - 2019.06.30 at 01h 33m 55s.xml">
       <configuration name="RegexDemo.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RegexDemo2_test - 2019.06.30 at 01h 40m 30s.xml">
+      <configuration name="RegexDemo2.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo2_test - 2019.06.30 at 01h 42m 52s.xml">
+      <configuration name="RegexDemo2.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo2_test - 2019.06.30 at 01h 43m 17s.xml">
+      <configuration name="RegexDemo2.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegexDemo2_test - 2019.06.30 at 01h 43m 27s.xml">
+      <configuration name="RegexDemo2.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611088000" />
+    <option name="totallyTimeSpent" value="612964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1042,7 +1039,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15627293" />
+      <window_info x="187" y="161" width="406" height="562" id="Project" order="7" visible="true" weight="0.15627293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275281" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39342105" />
@@ -1070,7 +1067,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.32904148" />
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.30543634" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.20176083" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49167928" visible="true" weight="0.20176083" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" weight="0.24763407" />
@@ -1625,20 +1622,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/RegexDemo/RegexDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        <state relative-caret-position="237">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
