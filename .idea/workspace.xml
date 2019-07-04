@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="枚举">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="枚举" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/2.txt" />
@@ -74,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1169#1184#0" expanded="true" />
@@ -89,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
@@ -105,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Color.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
@@ -580,14 +574,7 @@
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
       <workItem from="1561706601513" duration="32085000" />
-      <workItem from="1562078603147" duration="3709000" />
-    </task>
-    <task id="LOCAL-00142" summary="RandomAccessFile">
-      <created>1561316509801</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1561316509801</updated>
+      <workItem from="1562078603147" duration="4204000" />
     </task>
     <task id="LOCAL-00143" summary="Properties">
       <created>1561360306122</created>
@@ -925,7 +912,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562081144614</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="枚举">
+      <created>1562083367112</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1562083367112</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -961,7 +955,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617290000" />
+    <option name="totallyTimeSpent" value="617785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1536,17 +1530,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Info.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1169#1184#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
@@ -1560,26 +1560,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/EnumDemo/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1169#1184#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
