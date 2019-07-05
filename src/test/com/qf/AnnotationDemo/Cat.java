@@ -1,5 +1,7 @@
 package test.com.qf.AnnotationDemo;
 
+import java.util.Arrays;
+
 /**
  * @ program: java_study
  * @ author:  TaoXueFeng
@@ -53,21 +55,24 @@ public class Cat {
         this.color = color;
     }
 
-    //用于验证方法是否覆盖父类中的方法
     @Override
     public String toString() {
         return "Cat{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                '}';
-    }
-    //此方法不推荐使用
-    @Deprecated
-    public String printInfo(){
-        return "Cat{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
+                ", color=" + color +
+                ", like=" + Arrays.toString(like) +
                 '}';
     }
 
+    //此方法不推荐使用
+    @Deprecated
+    public String info() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", color=" + color +
+                ", like=" + Arrays.toString(like) +
+                '}';
+    }
 }

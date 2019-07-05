@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="自定义注解">
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
@@ -70,11 +73,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="221">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#294#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,9 +89,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="802">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -102,14 +113,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="-89">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#303#327#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -189,10 +210,10 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Color.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/EnumDemo/Singleton.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/EnumDemo/EnumDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" />
-        <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" />
       </list>
     </option>
   </component>
@@ -375,7 +396,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnumDemo.test5">
+  <component name="RunManager" selected="JUnit.AnnotationDemo.test2">
+    <configuration name="AnnotationDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.qf.AnnotationDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.qf.AnnotationDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.com.qf.AnnotationDemo.AnnotationDemo" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EnumDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_test" />
       <extension name="coverage">
@@ -440,36 +477,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexDemo2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.qf.RegexDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.qf.RegexDemo" />
-      <option name="MAIN_CLASS_NAME" value="test.com.qf.RegexDemo.RegexDemo2" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.RegexDemo2.test" />
       <item itemvalue="JUnit.EnumDemo.test2" />
       <item itemvalue="JUnit.EnumDemo.test3" />
       <item itemvalue="JUnit.EnumDemo.test4" />
       <item itemvalue="JUnit.EnumDemo.test5" />
+      <item itemvalue="JUnit.AnnotationDemo.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnnotationDemo.test2" />
         <item itemvalue="JUnit.EnumDemo.test5" />
         <item itemvalue="JUnit.EnumDemo.test4" />
         <item itemvalue="JUnit.EnumDemo.test3" />
         <item itemvalue="JUnit.EnumDemo.test2" />
-        <item itemvalue="JUnit.RegexDemo2.test" />
       </list>
     </recent_temporary>
   </component>
@@ -564,14 +585,7 @@
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
       <workItem from="1561706601513" duration="32085000" />
-      <workItem from="1562078603147" duration="6833000" />
-    </task>
-    <task id="LOCAL-00147" summary="编码">
-      <created>1561368069987</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1561368069987</updated>
+      <workItem from="1562078603147" duration="7697000" />
     </task>
     <task id="LOCAL-00148" summary="NIO缓冲区">
       <created>1561383431426</created>
@@ -909,16 +923,17 @@
       <option name="project" value="LOCAL" />
       <updated>1562312416901</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="自定义注解">
+      <created>1562312780634</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1562312780634</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnumDemo_test2 - 2019.07.02 at 22h 57m 17s.xml">
-      <configuration name="EnumDemo.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumDemo_test2 - 2019.07.02 at 22h 58m 38s.xml">
-      <configuration name="EnumDemo.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnumDemo_test2 - 2019.07.02 at 23h 00m 04s.xml">
       <configuration name="EnumDemo.test2" configurationId="JUnit" />
     </history-entry>
@@ -943,9 +958,15 @@
     <history-entry file="EnumDemo_test5 - 2019.07.02 at 23h 58m 43s.xml">
       <configuration name="EnumDemo.test5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnnotationDemo_test2 - 2019.07.05 at 15h 53m 25s.xml">
+      <configuration name="AnnotationDemo.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationDemo_test2 - 2019.07.05 at 15h 53m 47s.xml">
+      <configuration name="AnnotationDemo.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620414000" />
+    <option name="totallyTimeSpent" value="621278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -976,7 +997,7 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3263889" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50832075" side_tool="true" weight="0.2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286517" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24027778" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.23945579" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3263158" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" weight="0.3276316" />
@@ -984,7 +1005,7 @@
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="14" weight="0.32894737" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32977527" />
-      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49167928" side_tool="true" weight="0.32108843" />
+      <window_info active="true" anchor="bottom" id="Run" order="16" sideWeight="0.49167928" side_tool="true" visible="true" weight="0.32108843" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24678111" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1518,29 +1539,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="802">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
@@ -1557,12 +1571,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="-89">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#303#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#294#0" expanded="true" />
           </folding>
         </state>
       </provider>

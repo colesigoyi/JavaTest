@@ -21,7 +21,7 @@ public class AnnotationDemo {
     @Test
     public void test1(){
         Cat cat = new Cat("miaomiao",4);
-        cat.printInfo();//调用一个已经过时的方法，不建议使用
+        //cat.printInfo();//调用一个已经过时的方法，不建议使用
 
 
         List list = new ArrayList();
@@ -29,5 +29,31 @@ public class AnnotationDemo {
         list.add(10);
         list.add(10.1f);
 
+    }
+    //反射来处理注解
+    @Test
+    public void test2(){
+        Class<Cat> catClass = Cat.class;
+        //获取类上指定的注解
+        MyAnnotation annotation = catClass.getAnnotation(MyAnnotation.class);
+        //获取注解上变量的值
+        String name = annotation.name();
+        Color color = annotation.color();
+        String[] like = annotation.like();
+        int age = annotation.age();
+
+        try {
+            Cat cat = catClass.newInstance();
+            cat.setName(name);
+            cat.setAge(age);
+            cat.setColor(color);
+            cat.setLike(like);
+            System.out.println(cat);
+
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 }
