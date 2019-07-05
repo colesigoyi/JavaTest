@@ -6,10 +6,11 @@ package test.com.qf.AnnotationDemo;
  * @ create: 2019-07-04 23:32
  * @ desc:
  **/
-
+@MyAnnotation(name = "bin",like = {"鱼","肉"},color = Color.RED)//数组要用大括号
 public class Cat {
     private String name;
     private int age;
+    private Color color;
 
     public Cat() {
     }
@@ -34,6 +35,15 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
     //用于验证方法是否覆盖父类中的方法
     @Override
     public String toString() {
