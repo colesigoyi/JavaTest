@@ -11,6 +11,7 @@ public class Cat {
     private String name;
     private int age;
     private Color color;
+    private String[] like;
 
     public Cat() {
     }
@@ -18,6 +19,14 @@ public class Cat {
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public String[] getLike() {
+        return like;
+    }
+
+    public void setLike(String[] like) {
+        this.like = like;
     }
 
     public String getName() {

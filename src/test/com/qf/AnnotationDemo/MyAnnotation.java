@@ -1,12 +1,16 @@
 package test.com.qf.AnnotationDemo;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
 /**
  * @ program: java_study
  * @ author:  TaoXueFeng
  * @ create: 2019-07-05 15:29
  * @ desc: 自定义注解
  **/
-
+@Retention(RetentionPolicy.RUNTIME)//适用范围
+@SuppressWarnings("all")
 public @interface MyAnnotation {
     //定义变量
     public String name();

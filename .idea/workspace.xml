@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/Test0613_1.java" line="14" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="注解">
-      <change afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" afterDir="false" />
+    <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="自定义注解">
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
@@ -74,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="55">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
@@ -94,6 +93,22 @@
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
                 <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +122,8 @@
         <option value="Singleton" />
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -127,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/RandomAccessFile.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/RandomAccessFileDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/config.properties" />
         <option value="$PROJECT_DIR$/src/test/com.res.config.properties" />
@@ -178,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/AnnotationDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java" />
       </list>
     </option>
   </component>
@@ -549,14 +564,7 @@
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
       <workItem from="1561706601513" duration="32085000" />
-      <workItem from="1562078603147" duration="6496000" />
-    </task>
-    <task id="LOCAL-00146" summary="装饰者设计模式">
-      <created>1561366541775</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1561366541775</updated>
+      <workItem from="1562078603147" duration="6833000" />
     </task>
     <task id="LOCAL-00147" summary="编码">
       <created>1561368069987</created>
@@ -894,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562311752029</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="自定义注解">
+      <created>1562312416901</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1562312416901</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -930,7 +945,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620077000" />
+    <option name="totallyTimeSpent" value="620414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,7 +1083,6 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
-    <MESSAGE value="RandomAccessFile" />
     <MESSAGE value="Properties" />
     <MESSAGE value="压缩与解压文件" />
     <MESSAGE value="装饰者设计模式" />
@@ -1093,28 +1107,14 @@
     <MESSAGE value="正则表达式" />
     <MESSAGE value="枚举" />
     <MESSAGE value="注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解" />
+    <MESSAGE value="自定义注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义注解" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/BlackBeanDecortaor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/Decorator/EggDecorater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1531,15 +1531,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="55">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
@@ -1549,6 +1549,20 @@
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
