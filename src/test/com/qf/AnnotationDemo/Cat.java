@@ -34,7 +34,7 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }
-
+    //用于验证方法是否覆盖父类中的方法
     @Override
     public String toString() {
         return "Cat{" +
@@ -42,4 +42,13 @@ public class Cat {
                 ", age=" + age +
                 '}';
     }
+    //此方法不推荐使用
+    @Deprecated
+    public String printInfo(){
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
 }
