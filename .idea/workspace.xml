@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="反射">
-      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
@@ -70,20 +70,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -116,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com.res.config.properties" />
         <option value="$PROJECT_DIR$/src/test/com/res/config.properties" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/PropertiesDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/IO/FileDemo/CompressionAndDecomprossionDemo.java" />
@@ -167,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/test/com/qf/AnnotationDemo/MyAnnotation.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/reflectionDemo.java" />
         <option value="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java" />
+        <option value="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java" />
       </list>
     </option>
   </component>
@@ -538,21 +538,7 @@
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
       <workItem from="1561706601513" duration="32085000" />
-      <workItem from="1562078603147" duration="9670000" />
-    </task>
-    <task id="LOCAL-00150" summary="NIO Channel通道">
-      <created>1561384570638</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1561384570638</updated>
-    </task>
-    <task id="LOCAL-00151" summary="NIO Channel通道">
-      <created>1561385033953</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1561385033953</updated>
+      <workItem from="1562078603147" duration="10133000" />
     </task>
     <task id="LOCAL-00152" summary="NIO Channel通道">
       <created>1561385247128</created>
@@ -883,7 +869,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562511808240</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="反射">
+      <created>1562597761238</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1562597761238</updated>
+    </task>
+    <task id="LOCAL-00200" summary="反射">
+      <created>1562686163032</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1562686163032</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -919,7 +919,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623251000" />
+    <option name="totallyTimeSpent" value="623714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1523,17 +1523,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
