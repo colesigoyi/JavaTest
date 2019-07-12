@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa607cdd-c3f3-4b52-b335-db7d2b5c9519" name="Default" comment="反射">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/test/com/qf/IO/FileDemo/deTest/my/1.txt" />
@@ -73,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -538,21 +539,7 @@
       <workItem from="1561704814386" duration="1037000" />
       <workItem from="1561705973102" duration="606000" />
       <workItem from="1561706601513" duration="32085000" />
-      <workItem from="1562078603147" duration="10133000" />
-    </task>
-    <task id="LOCAL-00152" summary="NIO Channel通道">
-      <created>1561385247128</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1561385247128</updated>
-    </task>
-    <task id="LOCAL-00153" summary="NIO Channel通道">
-      <created>1561387127422</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1561387127422</updated>
+      <workItem from="1562078603147" duration="11264000" />
     </task>
     <task id="LOCAL-00154" summary="Path">
       <created>1561387141861</created>
@@ -883,7 +870,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562686163032</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="反射">
+      <created>1562766228110</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1562766228110</updated>
+    </task>
+    <task id="LOCAL-00202" summary="反射">
+      <created>1562851636206</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1562851636206</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -919,7 +920,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623714000" />
+    <option name="totallyTimeSpent" value="624845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1532,8 +1533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/qf/ReflectionDemo/ReflectionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
