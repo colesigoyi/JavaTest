@@ -10,10 +10,5 @@ package test.com.qf.ReflectionDemo;
 public class ReflectionDemo {
     public static void main(String[] args) {
 
-
-
-
-
-
     }
 }
